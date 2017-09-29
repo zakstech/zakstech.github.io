@@ -1,0 +1,260 @@
+#first{
+	padding: 0%;
+margin-top: -15px;
+	height:  100vh;
+	width: 100%
+min-height: 500px;
+
+/*
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 230px 230px ;
+  grid-gap: 7px;
+  grid-auto-rows: minmax(150px, auto);*/
+
+}
+.container-fluid{
+	}
+
+.boxHolder{
+	
+
+	
+}
+
+.box{
+	
+	z-index: 1;
+    
+    position: absolute  !important;
+
+	background-color: white;
+	/*
+	height: 90% ;
+	
+	width: 90%;
+	min-width: 50px;
+	margin:10%;*/
+	height: 40%;
+	width: 30%;
+	margin:0%;
+	left:34%;
+
+	
+    border-width:5px;  
+    border-style:outset;
+    box-shadow: 10px 10px 5px #888888;
+
+-webkit-transition: all .4s linear .2s;
+transition: all .4s linear .2s;
+overflow: hidden; 
+position: relative;
+}
+
+/*
+.box[href |= "#"]:hover{
+	margin:5%;
+	height: 100%;
+	width:100%;
+
+	box-shadow: 20px 20px 15px #777777;
+	
+
+	
+}*/
+
+.close-border{
+   
+  border-radius: 50%;
+   
+    font-size: 24px;
+    
+    top: 10px;
+    z-index: 1;
+ 
+    cursor: pointer;
+    padding: 5px;
+    margin:2px;
+   
+    -webkit-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.close{
+  color: black
+    font-size: 24px;
+    border-radius: 50%;
+    border-color: blue;
+    border-width: 5px;
+    visibility: hidden;
+}
+
+/*----------Inside Boxes-----------------------------------*/
+
+.boxGrid{
+	
+	margin-top: 0px;
+	height: 100%;
+	width:100%;
+	
+	display: inline-block;
+	text-align: center;
+
+  
+  
+
+}
+
+.box h2{
+	margin-top: -5px;
+	font-size: 20px;
+	font-style: bold;
+	transition: all .4s linear .2s ;
+	-webkit-transition:all .4s linear .2s ;
+}
+.box p{
+	font-size: 12px ;
+	width: auto !important;
+
+
+
+	transition: all .4s linear .2s ;
+	-webkit-transition:all .4s linear .2s ;
+	margin:0px;
+}
+
+#third.boxGrid p{
+	font-size: 12px;
+	width: auto;
+
+	transition: all 1s linear .5s ;
+	-webkit-transition:all 1s linear .5s ;
+	margin:0px;
+
+}
+
+.box a{
+	color: blue;
+}
+.box li{
+	
+
+}
+.box ul{
+	
+}
+#third::after { margin-top: -85px}
+/*----------Type Of Boxs----------------------------------*/
+
+.box.left{
+	left:1%;
+}
+
+.box.right{
+	left:67%;
+}
+
+.box.top{top:0%;
+	margin-top: 160px;
+	top:0%;
+
+}
+
+.box.bottom{
+
+	margin-top: 150px;
+	top:45%;
+
+}
+
+/*----------Indiviaul boxes------------------------------*/
+
+#box1{
+	
+	
+	  grid-column-start: 1; 
+  grid-column-end: 2; 
+	grid-row-start:1;
+	grid-row-end:2;
+	border-color: blue;
+}
+#box1.top{
+	  
+	height: 33%
+	width:100%;
+	
+	
+}
+
+#box1.bottom: {
+
+	  height: 66%;
+	  width: 100%;
+	
+}
+#box2{
+	
+	
+	grid-column:2;
+	grid-row:1;
+	border-color: red;
+}
+#box3{
+	
+	
+	grid-column:3;
+	grid-row:1;
+	
+
+	border-color: yellow;
+}
+#box4{
+	margin-top: ;
+
+	top: ;
+
+	grid-column:1;
+	grid-row:2;
+	border-color: green;
+}
+#box5{
+	
+
+	grid-column:2;
+	grid-row:2;
+	border-color: purple;
+}
+#box6{
+
+
+	grid-column:3;
+	grid-row:2;
+
+	border-color: orange;
+}
+
+#box6 ul{
+	position: absolute;
+}
+
+/*--------------------- non-class/Id -------------------------------------*/
+
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+h1{
+	font-size: 14px;
+}
+
+.nav{
+	margin-bottom: 5px;
+}
+
+/*---------------------Smart Phone---------------------------*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    /* Styles */
+}

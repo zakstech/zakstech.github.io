@@ -1,0 +1,265 @@
+<style>  
+	.GroupLotStyle{
+		background: linear-gradient(to right,
+			white,
+			rgba(242,
+				176,
+				121,
+				0.51));
+		display:inline;
+		padding: 1%;
+		margin:1%;
+		
+	}
+	.OrangeBarTableHeader{
+		border-top: 31px solid #FF9900; 
+		width:100%;
+		margin-left: 0px; 
+		padding:1%;
+		min-height:100px;
+	}
+
+
+	#TableTop{
+		
+		width:88vw;
+		margin-left: 120px; 
+	}#DataTable{
+		width:88vw;
+		margin-left: 120px;
+	}
+
+	
+}#TableTop{
+	width: 100%;
+	margin-left: 0px;
+}#DataTable{
+	width: 100%;
+	margin-left: 0px;
+}.GroupLotStyle{
+	width: 100%;
+	margin-left: 0px;
+} 
+
+
+</style>
+
+<html>
+<head>
+
+	<title>LogoMaker - ZaksTech</title>
+	  <link rel="shortcut icon" href="../ztechs.ico" />
+	<link type="text/css" href="css/bootstrap-timepicker.min.css" />
+	
+	<link rel="stylesheet" href="jquery-ui-1.11.4/themes/smoothness/jquery-ui.css" />
+	
+	<!-- Load jQuery JS -->
+	<script src="jquery-1.11.3.min.js"></script>
+	<!-- Load jQuery UI Main JS  -->
+	<script src="jquery-ui-1.11.4/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="htmlFormatter.js"></script>
+	
+	<script src="invoicemaker.js"></script>
+	
+	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
+	<script src="clockpicker.js"></script>
+
+</head>
+<link rel="stylesheet" type="text/css" href="clockpicker.css">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="headermaker.css"/>
+<link type="text/css" rel="stylesheet" href="css/maker.css"/>
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+
+
+<body>
+	<div id="top">
+       <nav id="head" class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
+                        <a class="navbar-brand" href="../landing.html"><img alt="Brand" src="newtest2.png"></a>
+                    </li>
+                </ul>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" >
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../about.html">About Us</a> </li>
+                        <li><a href="../contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    <nav id="nav" class="navbar navbar-default navtwo">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" id="collapseButton1" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img alt="Brand" src="ztechs.png">
+                            </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  
+      <ul class="nav navbar-nav">
+      
+        	<div class="divider "></div>
+							<li ><a href="headermaker.htm ">header</a></li>
+							<li class="noHover">   <div class="divider "></div></li>
+							<li><a href="footermaker.htm ">Footer</a></li>
+							<li class="noHover">   <div class="divider "></div></li>
+
+							<li><a href="tailored.htm ">Custom Features</a></li>
+							<li class="noHover">   <div class="divider "></div></li>
+
+							<li><a href="logomaker.htm "> logo</a></li>
+							<li class="noHover">   <div class="divider "></div></li>
+							<li class="active noHover"><a href="invoicemaker.htm ">invoice</a></li>
+        
+
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../login.html">Login</a></li>
+        <li><a href="../register.html">Register</a></li>
+     
+     
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+	<div class="full-container">
+		
+		<div class="row">
+
+			<div id="top-container">
+				
+				<div class="col-sm-6" id="controls">
+					
+					<p id="instructions">Fill in your auction data</p>
+
+					<div class="inputHeader">
+								<h3>Auction Name:</h3>    
+									</div> 
+
+					<div id="input1" class="inputBox" >    
+						<div class="inputWrapper">
+
+										<p>Name:</p><input  type="text" id="name" class="input"/> </div>
+						</div>
+						<div class="inputHeader">
+									<h3>Inspection & Pickup Location: </h3>  
+									</div> 
+
+						<div id="input2 " class="inputBox ">
+									<div class="inputWrapper">
+
+										<p>Street:</p><input  type="text" id="streetLoc" class="input full"/> </div>
+										
+											<label>	<div class="inputWrapper">
+											<div class="adress"><p>City:</p>
+											<input type="text" id="city" class="input full" /></div>
+											<div class="adress"><p>State:</p>  <input type="text" id="state" class="input inputHalf" size="12"/></div>
+
+											<div class="adress"><p>Zip Code:</p><input type="text" id="zip" class="input inputHalf" maxlength="5" size="5" /></div>
+											</div></label>
+											
+											</div>
+							
+							
+							
+							<div class="inputHeader">
+
+															
+
+															<h3>Removal:</h3>
+															</div>
+															<div id="removal" class="inputBox">
+
+															<div id="rTimes" class="inputBox"> 
+															<div class="inputWrapper">
+																<div class="time">
+																<p class="inputLine">Date:</p><input type="int" id="rDate1" class="input " size="12" /> </div>
+																<div class="time">
+																<p class="inputLine">Start Time:</p><input type="int" id="rSTime1" class="input " size="6 "/></div>
+																<div class="time">
+																 <p class="inputLine">End Time:</p><input type="int" id="rETime1" class="input" size="6 "/></div>
+																 	</div></div>
+																<p class="buttonHolder">
+																	<button class="button" type="button" id="" onclick="plusRTimes() "
+																	>+ Removal time</button>
+																	<button class="button" type="button" onclick="minusRTimes()"
+																	>- Removal time</button></p>
+																	</div>
+
+									
+									<div class="inputHeader">
+
+															
+<h3>Contact information:</h3>
+															</div>
+									<div  class="inputBox" > 
+									<div class="inputWrapper">     
+										<div class="time"><p class="inputLine">Email address:</p><input  type="text" id="eAddress" class="input"/> </div>
+										<div class="time"><p class="inputLine">Phone Number:</p><input type="text" id="pNumber" class="input" size="12" /></div>
+										</div>
+										</div>
+
+
+
+									<div class="inputHeader">
+									<h3>Optional Message</h3>
+															</div>
+
+
+
+										
+										<div id="optional" class="inputBox">
+											<input type="text" id="optionalMess" class="input" />
+										</div>
+										<div>
+											
+											<button class="button" id="make" onclick="make()"
+											>Make HTML</button>
+										</div>
+										<div id="error-msg">The fields in red have not been filled in</div>
+									</div>
+									
+									<div class="col-sm-5" id="HTML"><h2>HTML</h2>
+										<div>
+											<button class="button" id="make" onclick="copyTextToClipboard('htmlText')"
+											>Copy all text</button>
+										</div>
+										<textarea rows="25"  id="htmlText" class="myspan outer" value="text"  ></textarea>
+
+										<h4 id="notify"> Scroll down to see the preview of your header</h4>
+
+									</div>
+								</div>
+								<div id="bottom-container">
+									<div id="preview"><h2>PREVIEW</h2>
+										
+										<div id="page"></div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</body>
+
+					</html>

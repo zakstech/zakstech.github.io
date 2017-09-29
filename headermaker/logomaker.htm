@@ -1,0 +1,220 @@
+<style>  
+	#Box{    display: inline-block;    width: 40%;}
+
+	#InvoiceBox
+	{
+		margin: 0 auto;
+		display: block;
+		width: 100%;
+	}
+	#InvoiceBox h1 {
+		border-style: double;
+		border-width: 10px;
+		border-color: Black;
+		font-size: 3em;
+		display: inherited;
+		float: left;
+		padding: 20px;
+	}
+	#HeaderWithTagline
+	{
+		text-align: left;
+		margin: 0 auto;
+		display: block;
+		width: 100%;
+		float: right;
+	}
+	#HeaderWithTagline h1
+	{
+		font-size: 2em;
+	}
+}
+#HeaderWithTagline h2
+{
+	font-size: 1em;
+}
+
+
+</style>
+
+<html>
+<head>
+
+	<title>LogoMaker - ZaksTech</title>
+	  <link rel="shortcut icon" href="../ztechs.ico" />
+
+	
+	<link rel="stylesheet" href="jquery-ui-1.11.4/themes/smoothness/jquery-ui.css" />
+	
+	<!-- Load jQuery JS -->
+	<script src="jquery-1.11.3.min.js"></script>
+	<!-- Load jQuery UI Main JS  -->
+	<script src="jquery-ui-1.11.4/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="htmlFormatter.js"></script>
+	
+	<script src="logomaker.js"></script>
+	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
+
+
+</head>
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="headermaker.css"/>
+<link type="text/css" rel="stylesheet" href="../css/main.css"/>
+<link type="text/css" rel="stylesheet" href="css/maker.css"/>
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+
+
+<body>
+<div id="top">
+        <nav id="head" class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
+                        <a class="navbar-brand" href="../landing.html"><img alt="Brand" src="newtest2.png"></a>
+                    </li>
+                </ul>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" >
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../about.html">About Us</a> </li>
+                        <li><a href="../contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    <nav id="nav" class="navbar navbar-default navtwo">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" id="collapseButton1" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img alt="Brand" src="ztechs.png">
+                            </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  
+      <ul class="nav navbar-nav">
+      
+        	<div class="divider "></div>
+							<li ><a href="headermaker.htm ">Header</a></li>
+							<li class="noHover">   <div class="divider "></div></li>
+							<li><a href="footermaker.htm ">Footer</a></li>
+							<li class="noHover">   <div class="divider "></div></li>
+
+							<li><a href="tailored.htm ">Custom Features</a></li>
+							<li class="noHover">   <div class="divider "></div></li>
+
+							<li class="active noHover"><a href="logomaker.htm ">Logo</a></li>
+							<li class="noHover">   <div class="divider "></div></li>
+							<li><a href="invoicemaker.htm ">Invoice</a></li>
+        
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../login.html">Login</a></li>
+        <li class="noHover">   <div class="divider "></div></li>
+        
+        <li><a href="../register.html">Register</a></li>
+     
+     
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<div class="full-container">
+		
+		
+		
+		<div id="top-container">
+		<div class="rows">
+			<div class="col-sm-7" id="controls">
+				
+				<h2 id="instructions">Fill in your auction data</h2>
+
+				<div class="inputHeader">												
+					<h3>Company Name:</h3>  
+															</div>
+
+				<div id="cName" class="inputBox" >    
+				<div class="inputWrapper">
+					<div class="inline">
+																
+					<p class="inputLine">Name:</p><input  type="text" id="name" class="input"/></div>
+					</div>
+					</div>
+
+					<div class="inputHeader">												<h3>States with office locations: </h3>
+															</div>
+					
+					<div id="states"  class="inputBox"> 
+					<div id="state" class="inputWrapper">
+					<div class="inline">
+						<p class="inputLine">State:</p><input type="text"  id="state1" class="input" /> 
+						</div>
+						<div  class="inline">
+
+						<p class="inputLine">Phone number:</p><input type="int" id="pNumber1" class="input" size="9"/> </div>
+						</div>
+
+						<p class="buttonHolder"><button class="button" id="make" onclick="plusState()"
+							>+ State locations</button>
+							<button class="button" id="make" onclick="minusState()"
+							>- State  <br />     locations</button></p></div>
+							
+							
+							<div class="inputHeader">												<h3>Add pitch:</h3>															</div>
+							
+							<div  id="pitches" class="inputBox">
+							<div id="pitch"  class="inputWrapper">
+							<div class="inline">
+
+							
+								<p class="inputLine">Pitch:</p><input type="int" id="pitch1" class="input"/>	</div>
+								</div>
+
+
+								<p class="buttonHolder">
+									<button class="button" id="make" onclick="plusPitch()"
+									>+ Pitch</button>
+									<button class="button" id="make" onclick="minusPitch()"
+									>- Pitch</button></p></div>									
+									<div>
+										
+										<button class="button" id="make" onclick="make()"
+										>Make HTML</button>
+									</div>
+									<div id="error-msg">The fields in red have not been filled in</div>
+									
+								</div>
+								<div class="col-sm-4" id="HTML"><h2>HTML</h2>
+									<div>
+										<button class="button" id="make" onclick="copyTextToClipboard('htmlText')"
+										>Copy all text</button>
+									</div>
+									<textarea rows="25"  id="htmlText" class="myspan outer"></textarea>
+									<h4 id="notify"> Scroll down to see the preview of your header</h4></div>
+								</div>
+								<div id="bottom-container">
+									<div id="preview"><h2>PREVIEW</h2>
+										
+										<div id="page"></div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+					</body>
+
+					</html>

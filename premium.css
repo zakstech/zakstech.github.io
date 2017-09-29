@@ -1,0 +1,175 @@
+
+
+
+
+
+
+
+
+.clear-background{
+background-image: none;
+}
+#head{
+  }
+body { 
+background-color: white;
+background-size: cover;
+  height: 100%;
+   
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  text-align: center;
+ 
+
+ 
+}
+#top{
+  min-width:1100px;
+  display:inline-block;
+  margin-bottom:20px;
+  width: 100%;
+  height:80px !important;
+min-height: 80px;
+  overflow:hidden;
+  position: relative;
+ 
+  background-image: url('css/trial.jpg');
+  background-size: cover;
+  margin:-5px;
+}
+#nav{
+  margin-top: -5px;
+}
+#navbar-collapse{
+ background-color: none;
+ border:none;
+}
+#full-container{
+  background-image: url('css/trial.jpg');
+background-size: cover;
+  background-color: white;
+  margin:0px 30px 0px 30px;
+  padding-top: 20px;
+
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+
+.container {
+  display: table;
+ 
+  width: 100%;
+  margin:10px,0px,10px,0px;
+  padding: 1px;
+  border-collapse: separate;
+    border-spacing: 10px;
+
+}
+section{margin:10px,0px,10px,0px;
+
+}
+
+.container div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+  padding: 1rem;
+  font-size: 14px;
+}
+.spacing{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+  padding: 1rem;
+
+}
+.left-half {
+  color: black;
+  background: #efefef;
+  box-shadow: 0 1px 2px rgba(0,0,0,.5);
+    border-radius: 10px 0px 0px 10px;
+}
+.left-half h1{
+  color: black;
+}
+.right-half {
+  border-radius: 0px 10px 10px 0px;
+  color: black;
+  font-size: 14px;
+text-shadow: 0px 7px 3px rgba(0,0,0,0.3),
+                 8px 13px 6px rgba(0,0,0,0.15),
+                 -8px 13px 6px rgba(0,0,0,0.15);
+  background: #e0e3e9;
+  box-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.both{
+  background-color: #eee;
+  display:inline-block;
+  border-radius: 10px;
+      box-shadow: 0 1px 2px rgba(0,0,0,.5);
+  min-width: 700;
+  width: 200%;
+  margin: 0;
+}
+/**
+nav {
+  background-color: #333;
+  margin: 0;
+  font-size: 15px;
+  text-shadow: none;
+  overflow: hidden;
+   }**/
+
+ul.nav.navbar-nav {
+
+  margin: 0;
+  padding: 0 !important;
+  }
+
+
+
+nav ul li {/*
+  display: inline-block;
+  list-style-type: none;*/
+}
+nav > ul > li > a{
+
+  color: #aaa;
+
+    
+    display: block;
+
+    line-height: 2em;
+
+    padding: 0.5em 0.5em;
+
+    text-decoration: none;
+
+}
+/**
+
+.navbar{
+  margin-bottom: 0px;
+}
+.container ul.a{
+  list-style-type: circle;
+  list-style-position:inside;
+  display: inline-block;
+  text-align: left;
+}
+.container li span{
+  margin-left:0em;
+ 
+
+}
+
+
+**/

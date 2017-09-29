@@ -1,0 +1,9 @@
+#top #third{
+	height: 55%;
+	padding-top: 0%;
+}
+#top #third::after{
+	margin-top: -200px;
+	
+
+}
