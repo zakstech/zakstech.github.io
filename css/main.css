@@ -52,13 +52,30 @@ background-color: transparent;;
 	min-height: 64px;
 }
 // NAVBAR
+
+#myNavbar{
+
+  position: relative;
+  z-index: 99;
+
+  background-color: rgb(248,248,248);
+}
+#myNavbar.navbar-collapse{
+
+  position: relative;
+  z-index: 99;
+
+  background-color: rgb(248,248,248);
+}
+
+
+
 .navbar-nav{
 	margin-top: -1px !important;
 }
 .navbar-right{
 position: relative;
     
-    float: right;
     padding: 0;
 }
 
