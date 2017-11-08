@@ -193,8 +193,8 @@ $("#notify").css("visibility","visible")
 
 
 
-var html = '<div id="Box"><div id="InvoiceBox">    <h1>'+name+'<br/> '+state+' </h1></div><div id="HeaderWithTagline">'+pitch+'</div></div><div style="width: 100%"></div>'
-var css = '#Box{    display: inline-block;    width: 40%;}#InvoiceBox{  margin: 0 auto;    display: block;    width: 100%;}#InvoiceBox h1 {    border-style: double;    border-width: 10px;    border-color: Black;    font-size: 3em;    display: inherited;    float: left;    padding: 20px;}#HeaderWithTagline{  text-align: left;  margin: 0 auto;    display: block;    width: 100%;    float: right;}#HeaderWithTagline h1{font-size: 2em;}}#HeaderWithTagline h2{font-size: 1em;}'
+var html = '<div id="Box"><div id="InvoiceBox">    <h1>'+name+'<br/> '+state+' </h1><p >'+pitch+'</p></div></div>'
+var css = '#Box{    display: inline-block;    width: 40%;}#InvoiceBox{   border-style: double;    border-width: 10px;    border-color: Black; margin: 0 auto;    display: block;    width: 100%; padding: 5px;}#InvoiceBox h1 {      font-size: 3em;    display: inherited;     } '
 newtext=HTMLFormat(html);
 
 var newcss = CSSFormat(css);

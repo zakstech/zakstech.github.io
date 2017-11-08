@@ -7,13 +7,18 @@ var md = new MobileDetect(window.navigator.userAgent);
 //---------main functions---------------------------//
 
 $(document).ready( function(){
+	//$(".box").css({"visibility":"hidden"})
 
 	var width="30%";
 	var width2="33%"
 	var height="40%"
 	var height2="45%"
 
+	//--Code to rearange boxes if on mobile device ---- //
+
 	if (md.mobile()) {
+
+		
 
 
 		var width="40%"
@@ -27,9 +32,11 @@ $(document).ready( function(){
 	$(".right" ).css({"top":"34%","margin-top":"160px"})
 		$(".left" ).css({"top":"0%","margin-top":"160px"})
 			$(".middle" ).css({"top":"67%","margin-top":"160px"})
+			
        
     }
 
+//$(".box").css({"visibility":"visible"})
 	var active = false;
 
 $(".box").hover(
@@ -80,7 +87,7 @@ $(".box").click(function(){
 			$(".box").removeClass("hover")
 	
 	var top ="35%"
-	var top2 = "-220px"
+	//var top2 = "-220px"
 	var left = "31%"
 	var left2 = "1%"
 	var width= "100%"
@@ -88,7 +95,7 @@ $(".box").click(function(){
 		top="160px"
 		top2="14px"
 	}
-	if($(box).hasClass("left")){
+	/*if($(box).hasClass("left")){
 		left="111%"
 		left2="2%"
 	} else if($(box).hasClass("right")){ 
@@ -97,8 +104,9 @@ $(".box").click(function(){
 
 	} else if ($(box).hasClass("bottom")){
 		width = "265%"}
+		*/
 
-		$(".box").css({"transition": "all .8s"});
+		$(".box").css({"transition": "all .7s "});
 		$(box).css({"z-index": "3","top":top, "left":"32%", "height":"44%", "width": "33%"
 
 		})
@@ -107,14 +115,14 @@ $(".box").click(function(){
 		setTimeout(
 			function(){
 
-				$(".box").css({"transition": "all 1s linear .5s"});
-						$("h2",box ).css({"font-size":"62px","transition":"all 1s linear .5s" })
-						$("p",box ).css({"font-size":"40px","transition":"all 1s linear .5s"})
+				$(".box").css({"transition": "all .8s linear .4s"});
+						$("h2",box ).css({"font-size":"62px","transition":"all .8s linear .4s" })
+						$("p",box ).css({"font-size":"40px","transition":"all .8s linear .4s"})
 
                        
-				$(box).css({"width": "98%","height":"100%", "z-index": "3","left":"1%","top":"160px","top":"0%","box-shadow": "50px 50px 25px","border-width":"15px"});
+				$(box).css({"width": "98%","height":"100%", "z-index": "3","left":"1%","top":"160px","top":"0%","box-shadow": "50px 50px 25px","border-width":"6px"});
 		         /*position:absolute;top:0;left:0;width:100%;height:100%;background-color:white*//*"margin-top":top2,"margin-left":left2,"top":"0","left":"0",*/
-			},1200)
+			},710)
 				
 		}
 	
@@ -132,15 +140,36 @@ $(".close").click(function(){
 
 	var top ="45%"
 	var left = "34%"
-	if($(box).hasClass("top")){
-		top="0%"
+	//--- If statment for desktop version --//
+	if (!md.mobile()){
+		if($(box).hasClass("top")){
+			top="0%"
+		}
+		if($(box).hasClass("left")){
+			left="1%"
+		} 
+		else if($(box).hasClass("right")){ 
+			left="67%"
+		}
 	}
-	if($(box).hasClass("left")){
-		left="1%"
-	} else if($(box).hasClass("right")){ 
-		left="67%"}
+	//--- If statment for mobile version --//
+	else{
+		var top ="67%"
+	var left = "51%"
+		if($(box).hasClass("top")){
+			left="1%"
+		}
+		if($(box).hasClass("left")){
+			top="0%"
+		} 
+		else if($(box).hasClass("right")){ 
+			top="34%"
+		}
+	}
 
-	$(box).css({"width": "33%","height":"44%",  "top":"23%", "left":"31%", "box-shadow": "15px 15px 10px","border-width":"5px"})
+	
+
+	$(box).css({"width": "33%","height":"44%",  "top":"23%", "left":"31%", "box-shadow": "15px 15px 10px","border-width":"2px"})
 	$("h2",box ).css({"font-size":"20px"})
 	$("p",box ).css({"font-size":"12px"})
 
@@ -150,7 +179,7 @@ $(".close").click(function(){
 			
 			$(box).css({ "height":height, "width": width,"top":top,"left":left, "box-shadow":"10px 10px 5px #888888"	})
 
-		},1500)
+		},1200)
 	setTimeout(
 		function(){
 			
@@ -161,12 +190,12 @@ $(".close").click(function(){
 			$(".box").addClass("hover");
 			active=false;
 
-		},2500)
+		},1600)
 	setTimeout(
 		function(){
 			$(box).css({"z-index": "1"	})
 				$(box).attr("href", "#")
-		},3000)
+		},2800)
 
 
 })

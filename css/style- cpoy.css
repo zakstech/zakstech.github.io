@@ -229,11 +229,14 @@ nav .navbar li:not(.nohover)hover{
 	background-color:rgb(247, 247, 247);
  
 }
-nav ul{
+ ul{
 	height: 100%;
 }
-li{
+ li{
 	margin-top: -1px;
+	height: 100%;
+}
+img{
 	height: 100%;
 }
 

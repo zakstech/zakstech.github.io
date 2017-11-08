@@ -15,11 +15,28 @@ min-width:100%;
 margin: 0px;
 padding: 0px;}
 
+#nav li:not(.noHover):hover{ 
+  
+  border-top-color: white;
+  background-color:white;
+
+}
+
+
   @media (min-width: 979px) {
   .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; // remove the gap so it doesn't close
  }
+
+ 
+#nav li:not(.noHover):hover{ 
+  
+  border-top-color: red;
+  background-color:white;
+
+}
+
 
 	
 }
@@ -148,7 +165,7 @@ border-top-color: black;
  
 }
 
-.navbar-nav .dropdown>.open>a: hover {
+#nav .dropdown>.open>a: hover {
 
   border-top-color: rgb(247, 247, 247);
   background-color:rgb(247, 247, 247);}
@@ -181,12 +198,7 @@ border-top-color: black;
 }
 #nav li+li {  }
 
-#nav li:not(.noHover):hover{ 
-  
-  border-top-color: red;
-  background-color:white;
 
-}
 .divider{
   
    
