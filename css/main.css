@@ -15,9 +15,10 @@ min-width:100%;
 margin: 0px;
 padding: 0px;}
 
-#nav li:not(.noHover):hover{ 
+
+#myNavbar li:not(.noHover):hover{ 
   
-  border-top-color: white;
+  border-top-color: red;
   background-color:white;
 
 }
@@ -28,9 +29,7 @@ padding: 0px;}
     display: block;
     margin-top: 0; // remove the gap so it doesn't close
  }
-
- 
-#nav li:not(.noHover):hover{ 
+#myNavbar li:not(.noHover):hover{ 
   
   border-top-color: red;
   background-color:white;
@@ -160,7 +159,7 @@ border-top-color: black;
 }
 .ddtest a:hover{
 
-  border-top-color: rgb(247, 247, 247);
+  border-top-color: red;
   background-color:rgb(247, 247, 247);
  
 }
@@ -186,7 +185,7 @@ border-top-color: black;
  
 }
 
-#nav li{ 
+.nav li{ 
   border: 2px;
   margin-top: 0px;
   border-style: solid;

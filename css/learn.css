@@ -23,9 +23,68 @@ h1 {
   margin: 0.75rem 0 0.75rem 0;
 }
 
+// id styles
+
+#main-tab{
+      background: linear-gradient(lightgray,black) ;
+      background-size:10px 80px;
+
+      padding: 0px;
+        border-radius: 5px 5px 0px 0px;
+        
+    
+}
+
+.tab-contect div{
+    padding: 0px;
+    background-color:#D6E6F3
+
+}
+.nav-tabs
+ {
+   border-color:#1A3E5E;
+   width:100%;
+   padding: 0px;
+ }
+
+.nav-tabs > li a { 
+    border: 1px solid #1A3E5E;
+    background-color:#2F71AB; 
+    color:#fff;
+    margin: 0px 2px 0px 2px;
+    }
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover{
+    background-color:#D6E6F3;
+    color:#000;
+    margin: 0px 4px 0px 4px;
+    
+    }
+
+    .fake{border: 1px solid #1A3E5E;
+    border-bottom-color: transparent;
+
+    }
+
+.nav-tabs > li > a:hover{
+  background-color: #D6E6F3 !important;
+    border-radius: 5px, 5px,0px,0px;
+    color:#000;
+
+} 
 
 
 // Pattern styles
+nav.navbar.navbar-default{
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+.navbar-default{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .container {
   display: table;
  
