@@ -1,5 +1,6 @@
 #pageWrapper{
 	overflow-x:hidden; 
+	position: relative;
 }
 
 #scrollWindow{
