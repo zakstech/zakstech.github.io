@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width" />
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7,10 +8,13 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>ZaksTech - Meeting your auction tech needs</title>
   <link rel="shortcut icon" href="ztechs.ico" />
+   
+  <!-- Bootstrap    -->
 
-  <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+ <link href="css/landing.css" rel="stylesheet">
+  <link href="css/newstyle.css" rel="stylesheet">
+ 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,17 +23,19 @@
       <![endif]-->
     </head>
     <body>
-      <div id="top">
-        <nav id="head" class="navbar navbar-default">
-          <div class="container-fluid">
+      <div id="navFull">
+        <nav id="head" class="navbar navbar-default transition mimimize">
+          <div class="container-hold ">
             <!-- Brand and toggle get grouped for better mobile display -->
+          
 
-            <ul class="nav navbar-nav navbar-left">
-              <li><a class="navbar-brand" href="#"><img alt="Brand" src="newtest2.png"></a></li>
+            <ul  class="nav navbar-nav navbar-left mimimize center-VP ">
 
-              
+              <a id="navSwitch" href="headermaker\headermaker.htm" class="nav-toggle">Free Tools</a>
+    
 
             </ul>
+           
 
 
 
@@ -37,88 +43,94 @@
 
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse minimize center-VP" id="navbar-collapse-1">
 
 
               <ul class="nav navbar-nav navbar-right">
+                <li><a href="Register.html"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+                <li class="center-VP" >   <div class="divider center-VP"></div></li>
+               <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 
-                <li><a href="about.html">About Us</a>  </li>
-
-                <li><a href="contact.html">Contact Us</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
-       
-<nav class="navbar navbar-default">
+        
+<nav id="mainNav" class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <ul id="nav-left" class="nav navbar-nav navbar-left center-VP ">
+              <li class="left">
+      <a class="navbar-brand navbar-left" href="#"><img alt="Brand" src="newtest2.png" ></a></li>
+         <li class="right">
+      <button type="button" class="navbar-toggle nav-right" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#"><img alt="Brand" src="ztechs.png"></a>
+      </ul>
+    </li>
+
     </div>
+
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav ">
+      
+     <ul id="rightNav" class="nav navbar-nav navbar-right"> 
        
-        <li class="dropdown">
-              <a data-toggle="dropdown" class="dropdown-toggle">Free Tools <b class="glyphicon glyphicon-th-list"></b></a>
-    <ul id="ddtest" class="dropdown-menu ddtest">
-        <li class="noHover"><a href="headermaker\headermaker.htm">Header Maker</a></li>
-        <li class="noHover"><a href="headermaker\invoicemaker.htm">Invoice Maker</a></li>
-        <li class="noHover"><a href="headermaker\footermaker.htm">Footer Premade</a></li>
-        <li class="noHover"><a href="headermaker\logomaker.htm">Logo Maker</a></li>
-    </ul>
-</li>
-                 <li class="noHover"> <div class="divider"></div></li>
-
-
                   <li><a href="home.html">Home</a>   </li>
-                  <li class="noHover">   <div class="divider"></div></li>
 
                   <li><a href="learn.html">Learn Tech</a>   </li>
-                  <li class="noHover">   <div class="divider"></div></li>
-                  <li><a href="premium.html">Premium Services</a></li>
                   
-                  <li class="noHover"><div class="divider"></div></li>
+                  <li><a href="premium.html">Premium Services</a></li>
+
                   <li><a href="demo.html">Sample auction page</a>   </li>
-
-                </ul>
-              
-
-      <ul class="nav navbar-nav navbar-right"> 
-        <li><a href="Register.html"><span class="glyphicon glyphicon-user"></span> Register</a></li>
-                <li >   <div class="divider"></div></li>
-               <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
 </nav>
+</div>
+
+
+      <div id="top">
+        <div id="scrollWindow">
+          <div class="scrollArrow left leftScroll"><</div>
+          <div class="scrollArrow right rightScroll">></div>
+          <div id="scroll1" class="scroll"><h1>Why not empower your employees? </h1></div>
+              <div id="scroll2" class="scroll"><h1>How many hours are you wasting each day?</h1></div>
+              <div  id="scroll3" class="scroll"><h1>Who is choosing the competition over you?</h1></div>
+              <div  id="scroll4" class="scroll"><h1>What Technologies are you missing out on?</h1></div>
+              <br style="clear: both"/>
+
+
+        </div>
+        <div id="scrollBarWindow">
+          <div id="scroll1Bar" class="scrollBar">
+            <h3>Customized Software</h3>
+            <p>Give your employees the tools to turn word documents and spreadsheets into web ready code.</p>
+        </div>
+              <div id="scroll2Bar" class="scrollBar">
+                <h3>Time is of the essense</h3>
+                <p>How much more could you accomplish with just one extra hour a day? Get it with task automation programs.</p>
+              </div>
+              <div  id="scroll3Bar" class="scrollBar">
+              <h3>First Impression</h3>
+                <p> Visitors judge you in the first 3 seconds of seeing your website, make "<b>profesional and trustworthy</b>" thier first thought of you.</p>
+            </div>
+              <div  id="scroll4Bar" class="scrollBar">
+                <h3>In Person Consulatations</h3>
+                <p>Real time answers with a real person in real world terms.</p>
+              </div>
+          
+        </div>
+
 
 
        <div class="section">
         <div class="cta-section">
           <div class="container-fluid" >
             <div class="row">
-
-              <div class="col-sm-6 " id = "Lmain">
-              </div>
-
-
-
               
-
-              <div class="col-sm-6" id="Rmain" >
-                <h2> Just Fill And Click To Make Your HTML</h2>
-                <div id="img1border">
-                 <img id='img1' class='rotator transition' inactive="true" src="fill.png">
-               </div>
-              <a href="headermaker/headermaker.htm"> <button id="header-try" type="button" class="btn btn-warning"><b class=" glyphicon glyphicon-triangle-right"></b> Try now</button></a>
-
-            </div>
-
+              
 
 
           </div>
@@ -128,23 +140,49 @@
   </div>    
 
   <div id="second">
-    <div class="section">
+     <div class="section">
       <div class="cta-section">
         <div class="container-fluid" >
+
+          <div class="row">
+            <div id="secondLeft" class="col-sm-8 flyer">
+               <H2> Welcome to ZaksTech </H2>
+        <p>ZaksTech is small tech help company located in Virgina. We were founded when we saw the trouble that auction houses had finding good, reliable and affordable techwork and the number of hours the could be saved with automation.  While we specialize in technical services for auction houses we have provided help to a variety of small businesses and government entities upon special request.
+        </p>
+        <p>In addition to ruotine tech help such as installing hardware, setting up VPNs, transfering websites, editing videos and advertisments. We create tools specifically for auctions house enableing empolyes with minamul computer knowledge to make code for websites and maintain database. </p>
+  </div>
+  <div class="col-sm-4 flyer">
+    <a style="width:33%" class="imageFrame2" href=""><img style="height:200px"  src="Zak.jpg"></a>
+    <p>Zak Rohde: Founder and President</p>
+    <p> - Recieved Degrees in Engineering and Japanese. Is self taught in programing, web design, and tech.  </p>
+    </div>
+</div>
+</div></div></div>
+    
+    
+
+      </div>
+      <!--
+
+      <div id="third">
+        <div class="section">
+      <div class="cta-section">
+        <div class="container-fluid" >
+          <h1>ZaksTech Advantage</h1>
 
           <div class="row">
             <div class="col-sm-4 flyer">
 
               <img  src="clocks.png" style="width: 50px">
               <h3>SAVE TIME</h3>
-              <p>Generate custom HTML in minutes, by filling a form and the press of a button </p>
+              <p> Most small business waste Generate custom HTML in minutes, by filling a form and the press of a button </p>
             </div>
 
 
             <div class="col-sm-4 flyer">
 
               <img  src="appealing100.png" style="width: 50px"><h3>LOOK GOOD</h3>
-              <p>Headers, invoices and more formated to look professional fit the style of popular auction platforms </p>
+              <p>  make a judgement in the first 3 seconds of seeing a website, what is the first thing they see when they see your site?  </p>
             </div>
 
             <div class="col-sm-4 flyer">
@@ -161,19 +199,12 @@
 
 
         </div></div></div>
-
-      </div>
-
-      <div id="third">
-        <H2> ABOUT US </H2>
-        <p>ZAKSTECH is small tech help company located in Virgina that specializes in providing auction house with specialized software and customized technical assistance. 
-
-        </p>
+       
 
 
-      </div>
-      <div id="fourth"> <H2>Site Map</H2>
-      <div class="col-sm-3 "> <H3> Tools </H3>
+      </div>--->
+      <div id="fourth"><div id=wrapperFourth>  <H2>Site Map</H2>
+             <div class="col-sm-3 "> <H3> Tools </H3>
       <p><a href="headermaker\headermaker.htm">Header Maker</a></p>
       <p><a href="headermaker\invoicemaker.htm">Invoice Maker</a></p>
       <p><a href="headermaker\logomaker.htm">Logo Maker</a></p>
@@ -193,6 +224,10 @@
         <p><a href="headermaker\tailored.htm">Tailored web assets</a></p>
         <p><a href="login.html">Premium Tools Login</a></p>
         <p><a href="contact.html">Schedule an appointment</a></p>
+        </div></div>
+
+        <div id=bottom> 
+          This site is designed and made by us! ZaksTechLLC
         </div>
 
 </div>
@@ -201,6 +236,9 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/bootstrap.min.js"></script>
-      <script src="js/landing.js"></script>
+      <script src="jquery-1.11.3.min.js"></script>
+  
+<script src="js/landingScript.js"></script>
+<script src="js/test.js"></script>
     </body>
     </html>

@@ -3,6 +3,12 @@ background-image: none;
 }
 #head{
   }
+  html{
+    height: 100%;
+  width:100%;
+  margin: 0px;
+padding: 0px;
+  }
 body { 
 background-color: white;
 background-size: cover;
@@ -13,7 +19,7 @@ background-size: cover;
   font-size: 1.25rem;
   line-height: 150%;
   text-align: center;
- 
+ overflow-x:hidden;
 
  
 }
@@ -43,21 +49,24 @@ min-height: 80px;
  border:none;
 }
 #full-container{
+
   background-image: url('css/trial.jpg');
 background-size: cover;
   background-color: white;
   margin-top: -20px;
   padding-top: 20px;
-  min-height: : 600px;
-  height: 82%;
-  overflow: hidden;
+  min-height: 600px;
+  height: 100%;
+  
 
 }
 /*------------------------------------------------------------------------------------------*/
 
 #main-tab{
+      margin-top: 122px;
       background: linear-gradient(lightgray,black) ;
       background-size:10px 82px;
+      height: 100%;
 
       padding: 0px;
         border-radius: 5px 5px 0px 0px;
@@ -69,6 +78,7 @@ background-size: cover;
     padding: 0px;
     background-color:#D6E6F3
     margin-top:-1px;
+    height: 100%;
 
 }
 .nav-tabs

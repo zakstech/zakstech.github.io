@@ -9,10 +9,10 @@
   <script src="jquery-1.11.3.min.js"></script>
   <!-- Load jQuery UI Main JS  -->
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
+<script type="text/javascript" src="js/nav.js"></script>
   <!--<script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>-->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/newstyle.css" rel="stylesheet">
 
   
   
@@ -20,7 +20,7 @@
 
 
  
-<link rel="stylesheet" type="text/css" href="css/main.css">
+
 
 <link type="text/css" rel="stylesheet" href="css/demo.css" />
 
@@ -31,76 +31,72 @@
 </head>
 
 <body>
-   <div id="top">
-   <nav id="head" class="navbar navbar-default">
-          
+  <div id="navFull">
+        <nav id="head" class="navbar navbar-default transition mimimize">
+          <div class="container-hold ">
             <!-- Brand and toggle get grouped for better mobile display -->
+          
 
-            <ul class="nav navbar-nav navbar-left">
-              <li><a class="navbar-brand" href="#"><img alt="Brand" src="newtest2.png"></a></li>
+            <ul  class="nav navbar-nav navbar-left mimimize center-VP ">
 
-              
+              <a id="navSwitch" inactive="true" class="nav-toggle">Free Tools <b class="glyphicon glyphicon-th-list"></b></a>
+    
 
             </ul>
+           
 
 
-<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse minimize center-VP" id="navbar-collapse-1">
 
 
               <ul class="nav navbar-nav navbar-right">
+                <li><a href="Register.html"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+                <li class="center-VP" >   <div class="divider center-VP"></div></li>
+               <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 
-                <li><a href="about.html">About Us</a>  </li>
-
-                <li><a href="Contact.html">Contact Us</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
-       
-<nav class="navbar navbar-default">
+        
+<nav id="mainNav" class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <ul id="nav-left" class="nav navbar-nav navbar-left center-VP ">
+              <li class="left">
+      <a class="navbar-brand navbar-left" href="#"><img alt="Brand" src="newtest2.png" ></a></li>
+         <li class="right">
+      <button type="button" class="navbar-toggle nav-right" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#"><img alt="Brand" src="ztechs.png"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-left">
-       
-        <li class="dropdown">
-              <a data-toggle="dropdown" class="dropdown-toggle">Free Tools <b class="glyphicon glyphicon-th-list"></b></a>
-    <ul id="ddtest" class="dropdown-menu ddtest">
-        <li class="noHover"><a href="headermaker\headermaker.htm">Header Maker</a></li>
-        <li class="noHover"><a href="headermaker\invoicemaker.htm">Invoice Maker</a></li>
-        <li class="noHover"><a href="headermaker\footermaker.htm">Footer Premade</a></li>
-        <li class="noHover"><a href="headermaker\logomaker.htm">Logo Maker</a></li>
-    </ul>
-</li>
-                  <li class="noHover"><div class="divider"></div></li>
-                  <li  ><a href="home.html">Home</a></li>
-    
-                  <li class="noHover"><div class="divider"></div></li>
+      </ul>
+    </li>
 
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+     <ul id="rightNav" class="nav navbar-nav navbar-right"> 
+       
+                  <li><a href="home.html">Home</a>   </li>
 
                   <li><a href="learn.html">Learn Tech</a>   </li>
-                  <li class="noHover" >   <div class="divider"></div></li>
-                  <li ><a href="premium.html">Premium Services</a></li>
-                </ul>
-              
+                  
+                  <li><a href="premium.html">Premium Services</a></li>
 
-      <ul class="nav navbar-nav navbar-right"> 
-        <li><a href="Register.html"><span class="glyphicon glyphicon-user"></span> Register</a></li>
-                <li class="noHover">   <div class="divider"></div></li>
-               <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  <li><a href="demo.html">Sample auction page</a>   </li>
       </ul>
     </div>
   </div>
 </nav>
-
-<div id="full-container">
+</div>
 
 <section class="container">
   
