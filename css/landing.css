@@ -1,310 +1,619 @@
-#scrollWindow{
-	display: inline-block;
-	
-	overflow: hidden;
-	height: 100vh;
-	margin-top: -144px;
-	padding-top: 144px;
-	width: 100%;
-	
-	
+#pageWrapper{
+	overflow-x:hidden; 
 }
+
+#scrollWindow{
+
+	display: inline-block;
+
+	
+
+	overflow: hidden;
+
+	height: 100vh;
+
+	margin-top: -144px;
+
+	padding-top: 144px;
+
+	width: 100%;
+
+	
+
+	
+
+}
+
+
 
 #scrollWindow:hover > .scrollArrow{
+
  
+
  	opacity: .8;
+
  
+
 }
+
+
 
 .scrollArrow:hover{
+
 	cursor: pointer;
+
 	-webkit-transform: scale(1.1);
+
 }
+
+
 
 .scroll{
+
 	height: 100%;
+
 	height: 100vh;
+
 	margin-top: -144px;
+
 	padding-top: 144px;
+
 	width: 100%;
+
 	min-width: 500px;
+
 	z-index: 2;
+
 	position: absolute;
+
 	display: inline-block;
+
   -webkit-transition: 1s ease-out, 0s height;
+
     -moz-transition: 1s ease-out, 0s height;
+
     -o-transition: 1s ease-out, 0s height;
+
     transition: 1s ease-out, 0s height;}
+
 .scroll h1{
+
 	color:white;
+
 	text-shadow: 3px 3px #111111 ;
+
 	position: absolute;
+
 	bottom:82px;
+
 	left:20px;
+
 }
+
+
 
 	.scroll :not{}
+
 	
+
 	.scrollArrow{
+
 		position: absolute;
+
 		font-size: 50px;
+
 		font-style: bold;
+
 		background-color: rgb(256,256,256,.2);
+
 		color:white;
+
 		
+
 		top: 49%;
+
 		-webkit-transition: all .7s; 
+
 -moz-transition: all .7s;
+
 		z-index: 50;
+
 		opacity: .0;
+
 		
+
 	width: 40px;
+
 	height: 60px;
+
 }
+
   .scrollArrow.left{
+
 		
+
 		left: 0;
+
 		} 
+
 		.scrollArrow.right{
+
 		
+
 		right: 0;
+
 		}     
 
+
+
 #scroll1{
+
 	background:linear-gradient(90deg,white,black);
+
 	background-image: url('techfill.png');
+
 	background-size: cover;
 
+
+
 	left:-100;
+
 }
+
 #scroll2{
+
 	left: 0%;
+
 	background-color: red;
+
 	background-image: url('2.jpg');
+
+background-size: cover;
+
+
+
+}
+
+#scroll3{left: 100%;
+
+background-color:blue;
+
+background-image: url('filler.jpg');
+
 background-size: cover;
 
 }
-#scroll3{left: 100%;
-background-color:blue;
-background-image: url('filler.jpg');
-background-size: cover;
-}
+
+
 
 #scroll4{
+
 	
+
 	background-image: url('tutor-bannor.jpg');
+
 background-size: cover;
+
 	left:200%;
+
 }
+
+
+
 
 
 #scrollBarWindow{
 
+
+
 	width: 100%;
+
 	height:101px;
+
 	display: inline-block;
+
 	position: relative;
+
 	overflow: hidden;
+
 	margin: auto;
+
 	margin-top: -77px;
+
 	
+
 	
+
 	
+
 }
+
+
 
 .scrollBar{
+
 	height: 115px;
+
 	width:50%;
+
 	
+
 	z-index: 2;
+
 	position: absolute;
+
 	display: inline-block;
+
 	background-color: rgb(40,40,40);
+
 	border: solid #000;
+
 	border-width: 1px;
+
 	border-color: black;
+
 	border-right-width: 0px;
+
 	border-left-width:  1px;
+
 	    border-left-color: white;
+
 	   
+
     padding: 10px;
+
 	color: white;
+
 	-webkit-transition: all 1.5s cubic-bezier(0, 0, 0, 1); 
+
 -moz-transition: all 1.5s cubic-bezier(0, 0, 0, 1)
+
     font-size: 12;
+
     
 
+
+
 }
+
 .scrollBar h3{
+
 	font-size: 18px;
+
 	text-align: left;
+
 	margin-top: 5px;
+
 	margin-left: 5px;
+
 }
+
+
 
 #scroll1Bar{
+
 	
+
 	left:66%;
-}
-#scroll2Bar{
-	left:33%;
-	
-}
-#scroll3Bar{left: 0%;
-}
-#scroll4Bar{
-	
-	left:-34%;
+
 }
 
+#scroll2Bar{
+
+	left:33%;
+
+	
+
+}
+
+#scroll3Bar{left: 0%;
+
+}
+
+#scroll4Bar{
+
+	
+
+	left:-34%;
+
+}
+
+
+
 .slide-point-out {
+
     display: block;
+
     transition: 1s;
+
   
+
     
+
     position: relative;
+
     width: 0;
+
     height: 0;
+
     border-left: 20px solid transparent;
+
     border-right: 20px solid transparent;
+
     border-bottom: 20px solid black;
+
     top: -20px;
+
    
+
     z-index: 900;
+
 }
+
  .slide-point-in{
+
   display: block;
+
     
+
     
+
     position: relative;
+
     width: 0;
+
     height: 0;
+
     border-left: 18px solid transparent;
+
     border-right: 18px solid transparent;
+
     border-bottom: 18px solid black;
+
     top: 2px;
+
    
+
     z-index: 999;
+
 }
+
+
 
 /*---------------Main page--------------------------------------*/
 
+
+
 #top{
 
+
+
 min-width: 100%;
+
 	background-image: url('trial.jpg');
+
 background-size: cover;
+
+
 
 padding:0px;
 
+
+
 margin:0 auto;
+
 margin-top: 131px;
 
+
+
 }
+
 #second{
+
 	margin-top: -5px;
+
 	padding: 20px;
+
 	min-height: 480px;
+
 	background-color: white;
+
 width: 100%;
+
 color: rgb(40,40,40);
+
 }
+
 #second h2{
+
 	margin-top:0;
+
 	text-align: left;
+
 	color:rgb(86, 135, 212);
+
 }
+
 #second p{
+
 	display: inline-block;
+
 	width: 100%;
+
 	font-family: "Lato";
+
 	font-size: 20px;
+
 	text-align: left;
+
 	text-indent: 20px;
 
+
+
 }
+
 #second .imageFrame{
+
 	max-height: 30%;
+
 }
+
 #secondLeft::after{
+
     content: ' ';
+
     display: block;
+
     position: absolute;
 
+
+
    top:250px;
+
    margin-top: -30%;
+
     width: 100%;
+
     min-height: 200px;
+
     height: 100%;
+
     z-index:- 1;
+
     opacity: 0.2;
+
     background-image: url('zlogobw.png');
+
     background-size: 200px;
+
     background-repeat: no-repeat;
+
     background-position: 15% 0%;
+
    
 
+
+
     
+
 }
+
 #third{
+
 margin-top: 0px;
+
 	
+
 	min-height: 240px;
+
 	background-color:  rgb(180,180,180);
+
 	text-align: center;
+
 	
+
 	
+
 }
+
+
+
+
+
+
 
 
 
 
 
 #fourth{
+
 	height: auto;
+
 	min-height: 240px;
+
 	background-color: rgb(90,90,90);
+
 	text-align: center;
+
 	padding: 0;
+
 	color: white;
+
 }
+
+
 
 #fourth p{
+
 	display: inline-block;
+
 	width: 90%;
+
 	height: 6px;
+
 	font-family: "Lato";
+
 	font-size: 12px;
 
+
+
 }
+
 #fourth h2{
 
+
+
 	margin-bottom:0;
+
 	margin-top: 0;
+
 }
+
 #wrapperFourth{
 
-	height: 80%;
+
+
+	min-height: 220px;
+
+
 
 }
+
 #bottom{
+
 	width: 100%;
-	height: 20%;
+
+	height: 20px;
+	
+
 	background-color:black;
+	
+
 	bottom: 0px;
+
 }
+
 h1{
+
 	font-weight: 100;
+
 	font-size: 40px;
 
+
+
 }
+
 a {
+
 	color: #fff;
+
 	text-decoration: none;
+
 	background-color: none;
+
 }
 
- 
 
-/*---------------NAV BAR SECTION (NB)------------------------*/
 
+  
