@@ -21,7 +21,12 @@ $(document).ready(function() {
 
     // Run it when the page loads
     checkOffset();
-    TimerSwitch();
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+  
+    TimerSwitch(-100,100);}
+    else{
+      TimerSwitch();  
+    }
 
     // Run function when scrolling
     $(window).scroll(function() {
