@@ -45,7 +45,10 @@
     }
 }
 
-
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
 /*
 
 @media screen and (max-width:900px)
@@ -173,7 +176,7 @@ overflow-x: hidden;
 }
 #head{
 	margin-top: 0px;
-    height: 54px;
+    height: 34px;
     width: 100%;
 	background-color: black;
 	margin: 0px;
