@@ -27,6 +27,7 @@
     #rightNav li{
       width: 170px !important;
       min-width: 170px;
+      max-height: 25%;
     }
     .navbar-nav>li>a {
         padding-top: 10px;
