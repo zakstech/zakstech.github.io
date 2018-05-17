@@ -270,6 +270,7 @@ overflow-x: hidden;
  	 display: inline-block;
   vertical-align: middle;
   line-height: normal;
+  max-width: 100%;
  }
 
  #mainNav li{
