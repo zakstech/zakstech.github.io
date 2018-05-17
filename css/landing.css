@@ -9,7 +9,7 @@
 
 	
 
-	overflow: hidden;
+	overflow: hidden !important;
 
 	height: 95vh;
 

@@ -47,7 +47,9 @@
 
 @viewport{
     zoom: 1.0;
+    max-zoom:1.0;
     width: device-width;
+    max-width: device-width;
 }
 /*
 
