@@ -32,6 +32,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
   var scrollBar = {"#scroll1Bar":100, "#scroll2Bar":0, "#scroll3Bar": -100, "#scroll4Bar":-200}
  var reffernce = {"#scroll1Bar":100, "#scroll2Bar":0, "#scroll3Bar": -100, "#scroll4Bar":-200}  
  var val2=100;// Take the user to a different screen here.
+ alert("working")
  $(".scrollBar").css("width","100%;")
  alert("still working")
 } else{
