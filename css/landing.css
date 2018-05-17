@@ -1,3 +1,9 @@
+html.noscroll, body.noscroll {
+
+   overflow: hidden;
+}
+
+
 #pageWrapper{
 	overflow-x:hidden; 
 	position: absolute;
