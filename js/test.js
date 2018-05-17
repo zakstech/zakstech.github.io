@@ -28,11 +28,19 @@ $(document).ready(function() {
         checkOffset();
     });
 })
-$(".leftScroll").click( function(){clearInterval(timer);TimerSwitch(100,-50)}) //timer= setInterval(TimerSwitch,10000)})
- $(".rightScroll").click( function(){clearInterval(timer);TimerSwitch();timer= setInterval(TimerSwitch,10000)})
- var scroll = {"#scroll1":-100, "#scroll2": 0, "#scroll3": 100, "#scroll4":200}
- var scrollBar = {"#scroll1Bar":75, "#scroll2Bar":25, "#scroll3Bar": -25, "#scroll4Bar":-75}
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+  var scrollBar = {"#scroll1Bar":100, "#scroll2Bar":0, "#scroll3Bar": -100, "#scroll4Bar":-200}
+ var reffernce = {"#scroll1Bar":100, "#scroll2Bar":0, "#scroll3Bar": -100, "#scroll4Bar":-200}  
+ var val2=100;// Take the user to a different screen here.
+} else{
+     var scrollBar = {"#scroll1Bar":75, "#scroll2Bar":25, "#scroll3Bar": -25, "#scroll4Bar":-75}
  var reffernce = {"#scroll1Bar":75, "#scroll2Bar":25, "#scroll3Bar": -25, "#scroll4Bar":-75}
+ var val2=50;
+}
+$(".leftScroll").click( function(){clearInterval(timer);TimerSwitch(100,-val2)}) //timer= setInterval(TimerSwitch,10000)})
+ $(".rightScroll").click( function(){clearInterval(timer);TimerSwitch(-100,val2);timer= setInterval(TimerSwitch,10000)})
+ var scroll = {"#scroll1":-100, "#scroll2": 0, "#scroll3": 100, "#scroll4":200}
+
 //var timer;
 
 ;
