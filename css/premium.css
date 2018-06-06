@@ -51,7 +51,7 @@ min-height: 80px;
 #full-container{
  margin-top: 198px;
 background-size: cover;
-  background-color: white;
+  background-color: rgba(1,0,0,.5);
   margin:0px 30px 0px 30px;
   padding-top: 130px;
 
@@ -62,8 +62,7 @@ h1 {
   font-size: 1.75rem;
   margin: 0 0 0.75rem 0;
 }
-h4
- {
+h4 {
   font-family: lato;
   color: black;
   font-size: 5.75rem;

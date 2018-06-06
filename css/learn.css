@@ -1,15 +1,9 @@
 
 
-body{
-  
-  background: #f3f3f3;
-}
-
-
-
 
 
 body { 
+   background: #f3f3f3;
   color: #fff;
   font-family: sans-serif;
   font-size: 1.25rem;
@@ -24,7 +18,9 @@ h1 {
 }
 
 // id styles
-
+#test{
+  margin-top: 122px;
+}
 #main-tab{
       background: linear-gradient(lightgray,black) ;
       background-size:10px 80px;
@@ -235,13 +231,30 @@ section{margin:10px,0px,10px,0px;
     letter-spacing: .2px;
     font-weight: bold;
 }
-#second{
-  margin-top: 122px;
+///Main//////////////////
+
+#main{
  
+}
+#sec{
+  margin-top: 116px;
+  background-color: black;
+
+ 
+ 
+width: 100%;
+}
+#second{
+ 
+ height: 33vh;
   min-height: 280px;
   background-color:rgb(146, 152, 163)
-;;
+;
 width: 100%;
+}
+#second p{
+  font-family: "Lato";
+  font-size: 14px;
 }
 .info{
   display: none;
@@ -278,7 +291,7 @@ position: relative;
   display: inline-block;
   width: 50%;
   font-family: "Lato";
-  font-size: 20px;
+  font-size: 14px;
 
 }
 
@@ -290,6 +303,10 @@ position: relative;
   min-height: 280px;
   background-color: rgb(146, 152, 163)
 ;;
+}
+#fourt p{
+  font-family: "Lato";
+  font-size: 14px;
 }
 .second-in{
   height: 33vh;

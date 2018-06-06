@@ -14,12 +14,7 @@ background-color: white;
 background-size: cover;
   height: 100%;
    
-  color: #000;
-  font-family: sans-serif;
-  font-size: 1.25rem;
-  line-height: 150%;
-  text-align: center;
- overflow-x:hidden;
+  
 
  
 }
@@ -61,7 +56,14 @@ background-size: cover;
 
 }
 /*------------------------------------------------------------------------------------------*/
-
+#main-body{
+  color: #000;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  text-align: center;
+ overflow-x:hidden;
+}
 #main-tab{
       margin-top: 122px;
       background: linear-gradient(lightgray,black) ;
@@ -86,6 +88,7 @@ background-size: cover;
    border-color:#1A3E5E;
    width:100%;
    padding: 0px;
+   margin-bottom: 2px;
  }
 
 .nav-tabs > li a { 

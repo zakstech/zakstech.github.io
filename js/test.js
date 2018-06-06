@@ -57,14 +57,15 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
  var move2=50;
  var barReset=-75;
 }
-$(".leftScroll").click( function(){clearInterval(timer);TimerSwitch(100,-val2)}) //timer= setInterval(TimerSwitch,10000)})
- $(".rightScroll").click( function(){clearInterval(timer);TimerSwitch(-100,val2);timer= setInterval(TimerSwitch,10000)})
+active=true;
+$(".leftScroll").click(  function(){if(active){  clearInterval(timer);TimerSwitch(100,-move2);timer= setInterval(TimerSwitch,10000); active=false; setTimeout(function(){active=true},1200)}}) //timer= setInterval(TimerSwitch,10000)})
+ $(".rightScroll").click( function(){if (active){clearInterval(timer);TimerSwitch(-100,move2);timer= setInterval(TimerSwitch,10000); active=false; setTimeout(function(){active=true},1200)}})
  var scroll = {"#scroll1":-100, "#scroll2": 0, "#scroll3": 100, "#scroll4":200}
 
 //var timer;
 
 ;
-function BarUpdate(id,val1=-100,val2=50){
+function BarUpdate(val1=-100,val2=50){
 var temp;
     var bar;
     var tempBar;
@@ -88,7 +89,6 @@ function TimerSwitch(val1=-100,val2) {
 
             	if (temp<-101){
             		
-            		
             		var tempId = id;
             		var tempBarId=bar
             		var timer2 = setTimeout(function(){
@@ -105,13 +105,13 @@ function TimerSwitch(val1=-100,val2) {
             			$(tempId).show();
             			$(tempBarId).show();
 
-            }, 3000)
+            }, 1500)
             		
 
 
             		;  
 
-            	}else if(temp>200){
+            	}else if(temp>200&&val2<0){
             		
             		
                     var tempId = id;
@@ -119,20 +119,24 @@ function TimerSwitch(val1=-100,val2) {
                     
                         $(tempId).hide()
                         $(tempId).css('left', '-200%')
-                        $(tempBarId).hide()
-                        $(tempBarId).css('left',(50-barRest)+'%')
+                       // $(tempBarId).hide()
+                       $(tempBarId).addClass('notransition'); 
+                       $(tempBarId).css('left','0%')//clear css
+                        $(tempBarId).css('left',(48-barReset)+'%')
                         
                         scroll[tempId]=-100;
                         scrollBar[tempBarId]=-barReset;
-
+                   
             
                     var timer3 = setTimeout(function(){
+                        $(tempBarId).removeClass('notransition');
                         $(tempId).show();
+
                         $(tempId).css('left', '-100%')
                         $(tempBarId).show();
-                         $(tempBarId).css('left',-barReset+'75%')
+                         $(tempBarId).css('left',-barReset+'%')
 
-            }, 2)
+            }, 1)
 
             	} else {
             		scroll[id]=temp;

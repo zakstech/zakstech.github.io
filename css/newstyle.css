@@ -61,6 +61,9 @@
 
     }
 
+    
+
+
     .navbar-nav>li>a {
 
         padding-top: 10px;
@@ -228,7 +231,10 @@
 
 
 */
-
+/*-----------------OverRides------------------------------------*/
+.navbar-header{
+  height: 100%;
+}
 
 
 /*-----------------------Main----------------------------------*/
@@ -412,10 +418,8 @@ overflow-x: hidden;
 
 #head ul.navbar-right{
 
-  overflow-y:hidden;
-
-  overflow-x:visible;
-
+  
+  
   
 
 }
@@ -438,13 +442,22 @@ overflow-x: hidden;
 
 /*-------------Main Nav Bar ---------------------*/
 
+#news{
+  margin-left: 5px;
+}
+
 .center-VP{
 
-  padding-top: 1%;
-
-  padding-bottom:1%;
-
+ 
   
+ }
+ .centeredV{
+
+ }
+ .center-VP a{
+ 
+  height: 98%;
+  line-height: 98% !important;
  }
  .floater{
      display: inline-block;
@@ -636,7 +649,9 @@ position: relative;
 
 }
 
-#nav-lef{
+#nav-left{
+
+  padding-left: 5px;
 
   float: left;
 
@@ -649,6 +664,10 @@ position: relative;
   vertical-align: center;
 
 }
+.centerer{
+     padding-top: 5%;
+     padding-bottom:2%;
+    }
 #navRight li a{
   clear:both;
 }
@@ -678,15 +697,18 @@ position: relative;
 
   flex-grow: 1;
 
+ 
 
-
-
-  min-width: 20%;
+  min-width: 17%;
 
 
 
     padding: 0;
 
+}
+
+.navbar-right li{
+  overflow-x: visible;
 }
 
 .navbar{
@@ -697,13 +719,21 @@ position: relative;
 
   }
 
+
+
   .left{
 
     float:left;
+    padding-left: 5px;
 
     max-width: 50%;
 
   }
+
+  #nav-left.left{
+    padding-left: 5px;
+  }
+
 
   .right{
 

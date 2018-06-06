@@ -103,8 +103,9 @@
 
 	.scrollArrow{
 
-		position: absolute;
+		position: relative;
 
+		
 		font-size: 50px;
 
 		font-style: bold;
@@ -155,7 +156,7 @@
 
 	background:linear-gradient(90deg,white,black);
 
-	background-image: url('techfill.png');
+	background-image: url('../compressed/techfill.png');
 
 	background-size: cover;
 
@@ -171,7 +172,7 @@
 
 	background-color: red;
 
-	background-image: url('2.jpg');
+	background-image: url('../compressed/2.jpg');
 
 background-size: cover;
 
@@ -183,7 +184,7 @@ background-size: cover;
 
 background-color:blue;
 
-background-image: url('filler.jpg');
+background-image: url('../compressed/filler.jpg');
 
 background-size: cover;
 
@@ -195,7 +196,7 @@ background-size: cover;
 
 	
 
-	background-image: url('tutor-bannor.jpg');
+	background-image: url('../compressed/tutor.jpg');
 
 background-size: cover;
 
@@ -224,6 +225,8 @@ background-size: cover;
 	margin: auto;
 
 	margin-top: -68px;
+	
+	background-color: rgb(40,40,40);
 
 	
 
@@ -257,11 +260,11 @@ background-size: cover;
 
 	border-color: black;
 
-	border-right-width: 0px;
+	border-right-width: 1px;
 
-	border-left-width:  1px;
+	border-left-width:  0px;
 
-	    border-left-color: white;
+	    border-right-color: white;
 
 	   
 
@@ -633,4 +636,9 @@ a {
 
 
 
-  
+  .notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
