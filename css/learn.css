@@ -246,10 +246,9 @@ width: 100%;
 }
 #second{
  
- height: 33vh;
+ height: auto;
   min-height: 280px;
-  background-color:rgb(146, 152, 163)
-;
+  background-color:rgb(146, 152, 163);
 width: 100%;
 }
 #second p{
@@ -279,7 +278,7 @@ position: relative;
 }
 #third{
 
-  height: 33vh;
+  height: auto;
   min-height: 280px;
   background-color: rgb(59, 62, 72)
 ;
@@ -299,10 +298,9 @@ position: relative;
 
 
 #fourth{
-  height: 33vh;
+  height: auto;
   min-height: 280px;
-  background-color: rgb(146, 152, 163)
-;;
+  background-color: rgb(146, 152, 163);
 }
 #fourt p{
   font-family: "Lato";

@@ -6,6 +6,12 @@
 
     }
 
+    #nav-left{
+      width: 90%;
+      float: left;
+
+    }
+
     .navbar-toggle {
 
         display: block;
@@ -28,7 +34,7 @@
 
     .navbar-nav {
 
-        float: none!important;
+        float: none;
 
        
 
@@ -281,11 +287,58 @@ overflow-x: hidden;
 
 }
 
+#footer{
+  background-color: black;
+  
+  overflow: hidden;
+}
+
+
+
+#footerHead{
+  padding-left: 8%;
+ overflow: hidden;
+
+}
+
+
+
+#footerHead img{
+  margin:5px;
+  float: left
+}
+
+#footerHead h2{
+
+float: left;
+margin-left:15px;
+margin-top: 15px;
+}
+
+#footer .right h3{
+  
+   color: #337ab7;
+   
+}
+#footer .right p{
+  
+   line-height: 25px;
+   
+}
 
 
 
 
+.left{
+  float: left;
+  max-width: 40%;
+}
 
+.right{
+  float: right;
+  max-width: 40%;
+
+}
 
 
 
@@ -880,7 +933,6 @@ nav .navbar li:not(.nohover)hover{
  border: 0;
 
 }
-
 
 
 /*------- Old hover effects

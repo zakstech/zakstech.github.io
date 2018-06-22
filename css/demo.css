@@ -1,5 +1,5 @@
 .clear-background{
-background-image: none;
+background-image: none !important;
 }
 #head{
   }
@@ -10,6 +10,7 @@ background-image: none;
 padding: 0px;
   }
 body { 
+  background-image: none;
 background-color: white;
 background-size: cover;
   height: 100%;
@@ -32,8 +33,7 @@ min-height: 80px;
   overflow:hidden;
   position: relative;
  
-  background-image: url('css/trial.jpg');
-  background-size: cover;
+
   margin:-5px;
 }
 #nav{
@@ -45,8 +45,6 @@ min-height: 80px;
 }
 #full-container{
 
-  background-image: url('css/trial.jpg');
-background-size: cover;
   background-color: white;
   margin-top: -20px;
   padding-top: 20px;
@@ -63,6 +61,7 @@ background-size: cover;
   line-height: 150%;
   text-align: center;
  overflow-x:hidden;
+ margin-bottom: 10px;
 }
 #main-tab{
       margin-top: 122px;
@@ -71,7 +70,7 @@ background-size: cover;
       height: 100%;
 
       padding: 0px;
-        border-radius: 5px 5px 0px 0px;
+        border-radius: 5px;
         
     
 }
@@ -81,6 +80,7 @@ background-size: cover;
     background-color:#D6E6F3
     margin-top:-1px;
     height: 100%;
+
 
 }
 .nav-tabs
@@ -123,6 +123,7 @@ background-size: cover;
   margin-top: -2px;
     background-color: #D6E6F3;
     padding:0px !important;
+    border-radius: 5px;
 }
 .tab-pane {
     border:solid 1px #1A3E5E;
@@ -131,7 +132,7 @@ background-size: cover;
     background-color:#D6E6F3;
    
     padding:5px;
-
+    border-radius: 0px 0px 5px 5px;
 }
  ul.nav.nav-tabs::after{
     height: 0px;
