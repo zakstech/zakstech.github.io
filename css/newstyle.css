@@ -115,8 +115,8 @@
         margin-right: 20px;
         margin-top: 10px;
         display: block;
-        width: 100px;
-        height: 66px;
+        width: 10.2%;
+        height: 66%;
 
     }
 
@@ -392,6 +392,7 @@ body{
 height: 100%;
 
 min-width:100%;
+width: 100%;
 
  max-width: 100%;
 
@@ -407,6 +408,9 @@ overflow-x: hidden;
 
 }
 
+body.mobile{
+ 
+}
 
 
 
@@ -441,7 +445,6 @@ div.navbar.navbar-default{
 
 .mobile div.navbar.navbar-default{
   max-height: 105px;
-  height: 105px;
 }
 
 
@@ -689,8 +692,8 @@ position: relative;
  }
 
  .mobile .navbar-brand{
-  height: 100px;
-  width: 370px;
+  height: 98%;
+  width: 37.8%;
  }
 
  #Brand{
@@ -701,6 +704,7 @@ position: relative;
 
 .mobile #Brand{
   max-width: 370px;
+  width: 100%;
   margin-top: 15px;
 }
 
