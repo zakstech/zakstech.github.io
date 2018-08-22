@@ -6,6 +6,10 @@
 	position: absolute;
 }
 
+.mobile #pageWrapper #navFull{
+	height: 20vh;
+}
+
 #scrollWindow{
 
 	display: inline-block;
@@ -28,7 +32,14 @@
 	
 
 }
+.mobile #scrollWindow{
+	overflow: hidden;
+	margin-top: 20vh;
+	padding-top: 20vh;
+	
 
+	height:67vh;
+}
 
 
 #scrollWindow:hover > .scrollArrow{
@@ -80,6 +91,12 @@
     -o-transition: 1s ease-out, 0s height;
 
     transition: 1s ease-out, 0s height;}
+
+    .mobile .scroll{
+    	height: 71vh;
+    	margin-top: -22vh;
+    	padding-top: 0px;
+    }
 
 .scroll h1{
 
@@ -236,7 +253,10 @@ background-size: cover;
 
 }
 
-
+.mobile #scrollBarWindow{
+	height: 20vh;
+	margin-top: 0px;
+}
 
 .scrollBar{
 
@@ -416,6 +436,11 @@ margin-top: 181px;
 
 
 
+}
+
+.mobile #top{
+	margin-top: 0px;
+	
 }
 
 #second{

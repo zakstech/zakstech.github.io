@@ -194,6 +194,15 @@ section{margin:10px,0px,10px,0px;
 .flyer:hover{
   cursor:pointer;
 }
+.mobile .flyer{
+  width: 100%;
+}
+.spacer{
+
+}
+.mobile .spacer{
+  display: none;
+}
 .slide-out{
   display:none;
       color: #E8E8E8;
@@ -234,7 +243,8 @@ section{margin:10px,0px,10px,0px;
 ///Main//////////////////
 
 #main{
- 
+ overflow-x: hidden;
+ width: 100%;
 }
 #sec{
   margin-top: 100px;
@@ -245,11 +255,14 @@ section{margin:10px,0px,10px,0px;
 width: 100%;
 }
 #second{
- 
+ overflow: hidden;
  height: auto;
   min-height: 280px;
   background-color:rgb(146, 152, 163);
 width: 100%;
+}
+.mobile #second{
+  min-height: 420px;
 }
 #second p{
   font-family: "Lato";
@@ -260,13 +273,32 @@ width: 100%;
   order:1;
    
   min-height: 240px;
-  background-color:rgb(40, 44, 52)
-;
+  background-color:rgb(40, 44, 52);
 width: 100%;
 border-width:1px 0px 1px 0px;
 border-style: solid;
 border-color: black;
 position: relative;
+}
+.mobile .section p{
+  font-size: 38px !important;
+  width: 90% !important;
+  line-height: 35px !important;
+
+}
+
+.mobile .section h3{
+  font-size: 58px !important;
+
+}
+
+.mobile .section h1{
+  font-size: 68px !important;
+
+}
+
+.mobile h4{
+  font-size: 48px !important;
 }
 .info-top{height: 72px}
 .info-bottom{

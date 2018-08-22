@@ -6,15 +6,22 @@ $(document).ready(function() {
   
     $("#head").removeClass("tall");
             $("#head").addClass("collapsed");
-            $("#loboBar").css("max-width","80%")
+            $("body").addClass("mobile")
+
+
+           // $("#loboBar").css("max-width","80%")
  function checkOffset() {}
         }
     else{
+
          function checkOffset() {
+
+
 
         if ($("#head").offset().top > 77) {
             $("#head").removeClass("tall");
             $("#head").addClass("collapsed");
+
 
 
             
@@ -23,6 +30,7 @@ $(document).ready(function() {
         else if($("#head").offset().top < 20) {
             $("#head").addClass("tall");
             $("#head").removeClass("collapsed");
+
             
         }
     }

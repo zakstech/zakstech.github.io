@@ -19,6 +19,9 @@ background-size: cover;
 
  
 }
+body.mobile{
+ 
+}
 p{
     font-family: 'Alegreya Sans SC';
     font-size: 15px; 
@@ -63,6 +66,11 @@ min-height: 80px;
  overflow-x:hidden;
  margin-bottom: 10px;
 }
+.mobile #main-body{
+  height: 100vh;
+  overflow: visible;
+
+}
 #main-tab{
       margin-top: 122px;
       background: linear-gradient(lightgray,black) ;
@@ -75,10 +83,26 @@ min-height: 80px;
     
 }
 
+.mobile #main-tab{
+  width:100%;
+  min-width: 100vw;
+  height: 100%;
+  
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.mobile .container{
+  min-width: 100vw;
+  height:  100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding:0px;
+}
 .tab-contect div{
     padding: 0px;
     background-color:#D6E6F3
     margin-top:-1px;
+    min-height: 90vh;
     height: 100%;
 
 
@@ -97,6 +121,10 @@ min-height: 80px;
     color:#fff;
     margin: 0px 2px 0px 2px;
     }
+
+.mobile .nav-tabs > li {
+  width: 16.65%;
+}    
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:focus,
@@ -125,6 +153,9 @@ min-height: 80px;
     padding:0px !important;
     border-radius: 5px;
 }
+.mobile .tab-content{
+   height: 100%;
+}
 .tab-pane {
     border:solid 1px #1A3E5E;
     border-top: 0; 
@@ -133,6 +164,10 @@ min-height: 80px;
    
     padding:5px;
     border-radius: 0px 0px 5px 5px;
+}
+
+.mobile .tab-pane{
+  height: 100%;
 }
  ul.nav.nav-tabs::after{
     height: 0px;
@@ -204,6 +239,11 @@ min-height: 80px;
   grid-column: 1/4;
   grid-row: 4;
  
+}
+
+.mobile .footer{
+  height: 50vh;
+  margin-top: 1px;
 }
 
 /*----------------------------------------------*/

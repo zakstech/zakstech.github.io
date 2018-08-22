@@ -4,6 +4,7 @@
 
         float: none;
 
+
     }
 
     
@@ -97,6 +98,117 @@
     }
 
 }
+
+
+
+ .mobile  .navbar-header {
+
+        float: none;
+        
+
+    }
+
+    
+
+    .mobile .navbar-toggle {
+
+        margin-right: 20px;
+        margin-top: 10px;
+        display: block;
+        width: 100px;
+        height: 66px;
+
+    }
+
+    .mobile .icon-bar{
+      width: 100%;
+      height: 4px;
+      margin-top: 1px;
+      margin-bottom: 1px;
+    }
+
+
+   .mobile  .navbar-collapse {
+
+        border-top: 1px solid transparent;
+
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+
+    }
+
+   .mobile  .navbar-collapse.collapse {
+
+        display: none!important;
+
+    }
+
+    .mobile .navbar-nav {
+
+        float: none;
+
+       
+
+    }
+
+   .mobile  #rightNav.navbar-nav>li {
+      vertical-align: center;
+
+        float: none;
+
+    }
+
+    .mobile #rightNav{
+
+      width: 170px !important;
+
+      min-width: 170px !important;
+
+      overflow: visible;
+
+    }
+
+   .mobile  #rightNav li{
+
+      width: 170px !important;
+
+      min-width: 170px;
+
+      max-height: 25%;
+
+    }
+
+    
+
+
+    .mobile .navbar-nav>li>a {
+
+        padding-top: 10px;
+
+        padding-bottom: 10px;
+
+    }
+
+    .mobile .navbar-text {
+
+        float: none;
+
+        margin: 15px 0;
+
+    }
+
+  
+
+    .mobile .navbar-collapse.collapse.in { 
+
+        display: block!important;
+
+    }
+
+    .mobile .collapsing {
+
+        overflow: hidden!important;
+
+    }
 
 .navbar-collapse{
   float: right;}
@@ -295,44 +407,7 @@ overflow-x: hidden;
 
 }
 
-#footer{
-  background-color: black;
-  
-  overflow: hidden;
-}
 
-
-
-#footerHead{
-  padding-left: 8%;
- overflow: hidden;
-
-}
-
-
-
-#footerHead img{
-  margin:5px;
-  float: left
-}
-
-#footerHead h2{
-
-float: left;
-margin-left:15px;
-margin-top: 15px;
-}
-
-#footer .right h3{
-  
-   color: #337ab7;
-   
-}
-#footer .right p{
-  
-   line-height: 25px;
-   
-}
 
 
 
@@ -364,6 +439,10 @@ div.navbar.navbar-default{
   max-height: 50px;
 }
 
+.mobile div.navbar.navbar-default{
+  max-height: 105px;
+  height: 105px;
+}
 
 
 
@@ -595,7 +674,7 @@ position: relative;
 
 
 
-
+/*-------------------LOGO SECTION-----------------------*/
 
 
 .navbar-brand{
@@ -608,6 +687,22 @@ position: relative;
   padding: 5.3px 1.7px 1.7px 1.7px;
 
  }
+
+ .mobile .navbar-brand{
+  height: 100px;
+  width: 370px;
+ }
+
+ #Brand{
+  margin-left: 10px;
+
+  max-width: 174.5px;
+}
+
+.mobile #Brand{
+  max-width: 370px;
+  margin-top: 15px;
+}
 
   #mainNav img{
 
@@ -722,11 +817,7 @@ position: relative;
 
     }
 
-#Brand{
-  margin-left: 10px;
 
-  max-width: 174.5px;
-}
 #navRight li a{
   clear:both;
 }
@@ -836,6 +927,21 @@ position: relative;
   display: block;
 
 }
+.mobile #rightNavbar{
+  margin-top: 10px;
+  background-color: rgba(248,248,248,1);
+  width: 400px;
+  min-height: 350px !important;
+  font-size: 38px;
+  line-height: 40px;
+}
+.mobile #rightNavbar li{
+  height: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+
  .in li{
   text-align: center;
   
@@ -1151,7 +1257,73 @@ li{
   
 
 }
+/*-----------FOOTER-----------------------------------------*/
 
+#footer{
+  background-color: black;
+  
+  overflow: hidden;
+}
+
+.mobile #footer p{
+  font-size: 25px;
+}
+
+
+
+#footerHead{
+  padding-left: 8%;
+ overflow: hidden;
+
+}
+
+
+
+#footerHead img{
+  margin:5px;
+  float: left
+}
+
+#footerHead h2{
+
+float: left;
+margin-left:15px;
+margin-top: 15px;
+}
+
+#footer .left h3{
+  color: #fff;S
+}
+.mobile #footerHead {
+  display: none;
+}  
+
+.mobile #footer .left{
+  max-width: 100%;
+  width: 100%;
+  display: inline;
+  clear: both;
+  text-align: center;
+}
+#footer.mobile .left div{
+  padding: 0px;
+}
+
+
+#footer .right h3{
+  
+   color: #337ab7;
+   
+}
+#footer .right p{
+  
+   line-height: 25px;
+   
+}
+
+.mobile #footer .right{
+  display: none;
+}
 /*----------Specialized Elements --------------------------*/
 
 

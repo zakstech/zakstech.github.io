@@ -87,24 +87,50 @@ h4 {
   line-height: 60px;
   
 }
+.mobile h4{
+  margin-top: 5%;
+  font-size: 120px;
+  line-height: 180px;
+}
 .stripe{
   border-bottom: 2px solid rgb(53, 136, 204);
 }
 .stripe h1{color: rgb(53,136,204);
 font-size: 40px;
 font-weight: bold;}
+
+.mobile .stripe h1{
+  font-size: 60px;
+
+}
 .stripe li{
   font-family: sans-serif;
   color: black;
   font-size: 15px;
   margin: 5px;
 }
+.mobile .stripe li{
+  font-size: 38px;
+  line-height: 38px;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
 #stripe1{
   width: 100%;
 
-  background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,1),white),url("paypage2.png") no-repeat; /* W3C */
-  background-size: 100%,50%;
+  background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,1),white),url("paypage2.png") no-repeat;
+   background-size: 100%,50%;
 }
+
+.mobile #stripe1{
+  background:linear-gradient(90deg,rgba(255,255,255,0) ,rgba(255,255,255,1) 15%,rgba(255,255,255,1) 85%,rgba(255,255,255,0) ),url("paypage2.png") ; /* W3C */ 
+   
+background-size: 100%,55%;
+}
+
+
+
 #stripe2{
   width: 100%;
 
@@ -112,24 +138,53 @@ font-weight: bold;}
   background-size: 100%,50%;
   min-height: 290px;
 }
+
+ .mobile #stripe2{
+background:linear-gradient(rgba(255,255,255,1)10% ,rgba(255,255,255,0) ,rgba(255,255,255,0) ,rgba(255,255,255,1) 70% ),url("thtml2v.png") no-repeat; /* W3C */
+ background-size: 100%,100%; 
+}
+.mobile #stripe2 .a{
+margin-top:480px; 
+}
+
 #stripe3{
   width: 100%;
 
   background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,1),white),url("tutor-bannor.jpg") no-repeat; /* W3C */
   background-size: 100%,50%;
 }
+.mobile #stripe3{
 
+
+  background:linear-gradient(90deg,rgba(255,255,255,0) ,rgba(255,255,255,1) 15%,rgba(255,255,255,1) 85%,rgba(255,255,255,0) ),url("tutor-bannor.jpg") ; /* W3C */
+  background-size: 100%,65%;
+}
 #stripeContact{
   background-color:  white;
 }
+#stripeContact ul.a{
+  padding: 0px;
+
+}
 #stripeContact li{
   color: black;
+  list-style-type: none;
 }
 #stripeContact button{
   color: white;
   background-color: red;
   box-shadow: 2px 2px 10px 5px rgba(100, 100, 100, .15);
   border-radius: 5px;
+}
+
+.mobile #stripeContact button{
+  height: 80px;
+  width: 200px;
+  font-size: 38px;
+  font-weight: bold;
+
+
+  
 }
 .container {
 
@@ -156,6 +211,15 @@ section{margin:10px,0px,10px,0px;
   padding: 1rem;
   font-size: 14px;
 }
+
+.mobile .container div{
+  width: 80%;
+}
+
+.mobile  .container div.left-half{
+  width: 96%;
+}
+
 .spacing{
   display: table-cell;
   text-align: center;
@@ -174,6 +238,11 @@ section{margin:10px,0px,10px,0px;
 .left-half h2{
   color: black;
   font-weight: bold;
+
+}
+
+.mobile .left-half{
+  margin-left: 2%;
 }
 .right-half {
   float: right;
@@ -182,6 +251,11 @@ section{margin:10px,0px,10px,0px;
   font-size: 14px;
 
  
+}
+
+.mobile .right-half{
+  margin-right: 10%;
+
 }
 .both{
   background-color: #eee;
