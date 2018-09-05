@@ -114,7 +114,9 @@
     }
      .navbar-collapse.collapse.in ul{ 
 
-       opacity: 1;
+      visibility: visible;
+
+       opacity: .85;
 
         
     }
@@ -230,6 +232,8 @@
     .mobile .navbar-collapse.collapse.in { 
 
         display: block!important;
+        opacity: .85;
+        visibility: visible;
 
     }
 
@@ -1564,8 +1568,8 @@ margin-top: 15px;
   -o-transition: height 0.3s ease-in;
 
   
-  transition:  opacity .2s ease-in;
-transition-delay: 0.2s;
+  transition:  opacity .15s ease-in;
+transition-delay: 0.25s;
 
 }
 
@@ -1581,8 +1585,8 @@ transition-delay: 0.2s;
   -o-transition: opacity .4s ease-in;
 
   
-  transition:  opacity .1s ease-in;
-transition-delay: 0.25s;
+  transition:  opacity .4s ease-in;
+
 
 }
 
