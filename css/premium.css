@@ -178,9 +178,10 @@ margin-top:480px;
 }
 
 .mobile #stripeContact button{
-  height: 80px;
-  width: 200px;
+  min-height: 100px;
+  min-width: 240px;
   font-size: 38px;
+
   font-weight: bold;
 
 

@@ -13,14 +13,13 @@ $(document).ready(function() {
  function checkOffset() {}
         }
     else{
-
          function checkOffset() {
 
 
 
         if ($("#head").offset().top > 77) {
             $("#head").removeClass("tall");
-            $("#head").addClass("collapsed");
+            $("#head").addClass("collapsed"); 
 
 
 
@@ -39,7 +38,7 @@ $(document).ready(function() {
     checkOffset();
        
     }
-    TimerSwitch(); 
+    //TimerSwitch(); 
 
     // Run function when scrolling
     $(window).scroll(function() {
