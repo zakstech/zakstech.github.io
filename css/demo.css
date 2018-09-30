@@ -10,9 +10,10 @@ background-image: none !important;
 padding: 0px;
   }
 body { 
-  background-image: none;
-background-color: white;
-background-size: cover;
+
+  background-image: url("desktop1.png") ;
+
+background-size: 1844px 1037px;
   height: 100%;
    
   
@@ -65,20 +66,34 @@ min-height: 80px;
   text-align: center;
  overflow-x:hidden;
  margin-bottom: 10px;
+height: 1020px;
 }
 .mobile #main-body{
-  height: 100vh;
+  height: 150vh;
   overflow: visible;
 
 }
 #main-tab{
-      margin-top: 122px;
+
+      margin-top: 150px;
       background: linear-gradient(lightgray,black) ;
       background-size:10px 82px;
+
+
+      
+      border-top-width: 300px;
+      border:100px  solid transparent;
+     border-width: 90px 4px 26.4px 4px;
+    
+
+
+      border-image:url("browser.gif") 90 4 26.4 4;
+      -o-border-image:url("browser.gif") 30 stretch;
+      box-shadow: 2px 2px 6px #000000; 
       height: 100%;
 
       padding: 0px;
-        border-radius: 5px;
+        border-radius: 0px;
         
     
 }
@@ -90,6 +105,8 @@ min-height: 80px;
   
   margin-right: 0px;
   margin-left: 0px;
+
+  border: none;
 }
 .mobile .container{
   min-width: 100vw;
@@ -170,7 +187,7 @@ min-height: 80px;
   margin-top: -2px;
     background-color: #D6E6F3;
     padding:0px !important;
-    border-radius: 5px;
+    border-radius: 0px;
 }
 .mobile .tab-content{
    height: 100%;
@@ -182,7 +199,7 @@ min-height: 80px;
     background-color:#D6E6F3;
    
     padding:5px;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 0px 0px;
 }
 
 .mobile .tab-pane{
