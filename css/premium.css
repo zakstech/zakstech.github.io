@@ -149,7 +149,7 @@ background-size: 100%,55%;
 #stripe2{
   width: 100%;
 
-  background:linear-gradient(90deg,rgba(255,255,255,1),rgba(255,255,255,.75),rgba(255,255,255,0)),url("thtml2v.png") right no-repeat; /* W3C */
+  background:linear-gradient(90deg,rgba(255,255,255,1),rgba(255,255,255,.75),rgba(255,255,255,0)),url("thtml2v.png"),url("thtml2v.PNG") right no-repeat; /* W3C */
   background-size: 100%,50%;
   min-height: 320px;
 }

@@ -1,6 +1,8 @@
-
-
-
+/* mobil overides */
+.mobile div.navbar.navbar-default{
+	height: 18vh;
+}
+/* */
 #pageWrapper{
 	overflow-x:hidden; 
 	position: absolute;
@@ -13,7 +15,9 @@
 
 body.mobile{
 	overflow-x:hidden;
-	max-width: 100vw; 
+	width: 100vw; 
+	max-width: 100%;
+
 }
 
 #scrollWindow{
@@ -39,12 +43,12 @@ body.mobile{
 
 }
 .mobile #scrollWindow{
-	overflow: hidden;
-	margin-top: 20vh;
-	padding-top: 20vh;
+	overflow: hidden !important;;
+	margin-top: 18vh;
+	padding-top: 18vh;
 	
 
-	height:67vh;
+	height:62vh;
 }
 
 
