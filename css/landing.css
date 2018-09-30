@@ -3,7 +3,7 @@
 	height: 18vh;
 }
 /* */
-#pageWrapper{
+.mobile #pageWrapper{
 	overflow-x:hidden; 
 	position: absolute;
 }
