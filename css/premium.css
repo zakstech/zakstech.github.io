@@ -155,7 +155,7 @@ background-size: 100%,55%;
 }
 
  .mobile #stripe2{
-background:linear-gradient(rgba(255,255,255,1)10% ,rgba(255,255,255,0) ,rgba(255,255,255,0) ,rgba(255,255,255,1) 70% ),url("thtml2v.png") no-repeat; /* W3C */
+background:linear-gradient(rgba(255,255,255,1)10% ,rgba(255,255,255,0) ,rgba(255,255,255,0) ,rgba(255,255,255,1) 70% ),url("thtml2v.png"),url("thtml2v.PNG") no-repeat; /* W3C */
  background-size: 100%,100%; 
 }
 .mobile #stripe2 .a{
