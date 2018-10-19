@@ -144,7 +144,8 @@ filter: saturate(80%);
 .mobile .scroll h1{
 	top: 1.5vh;
 	left: 1.5vh;
-	font-family: "league spartan", "Work Sans Semibold","Palantino Linotype" ;
+	font-family: "league spartan", "Work Sans Semibold","Palantino Linotype","Times New Roman" ;
+	font-weight: 100;
 	font-size: 9vh;
 }
 
