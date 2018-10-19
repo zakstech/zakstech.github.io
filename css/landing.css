@@ -129,7 +129,7 @@ filter: saturate(80%);
 
 	font-size: 60px;
 
-		font-family: "league spartan", "WorkSansSemibold",'WorkSansRegular',"Palantino Linotype" !important;
+		font-family: "league spartan",'GlacialIndifferenceRegular', "WorkSansSemibold",'WorkSansRegular',"Palantino Linotype" !important;
 
 	text-shadow: 0px 0px 15px #222222, 0px 0px 3px #000000  ;
 
@@ -335,7 +335,7 @@ background-size: cover;
 
     font-size: 16S;
 
-    font-family: "Montserrat"; 
+    font-family: "MontserratRegular"; 
 
     
 
@@ -345,6 +345,7 @@ background-size: cover;
 
 .mobile .scrollBar{
 	height: 20vh;
+	width: 100%;
 }
 
 .scrollBar h3{
@@ -369,19 +370,31 @@ background-size: cover;
 
 	
 
-	left:66%;
+	left:75%;
 
 }
 
 #scroll2Bar{
 
-	left:33%;
+	left:25%;
 
 	
 
 }
 
-#scroll3Bar{left: 0%;
+.mobile #scroll2Bar{
+
+	left:0%;
+
+	
+
+}
+
+#scroll3Bar{left: -25%;
+
+}
+
+.mobile #scroll3Bar{left: -100%;
 
 }
 
@@ -389,11 +402,13 @@ background-size: cover;
 
 	
 
-	left:-34%;
+	left:-75%;
 
 }
 
-
+.mobile #scroll4Bar{
+	left: -200%;
+}
 
 .slide-point-out {
 
