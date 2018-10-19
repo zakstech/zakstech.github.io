@@ -129,6 +129,8 @@ filter: saturate(80%);
 
 	font-size: 60px;
 
+		font-family: "league spartan", "Work Sans Semibold","Palantino Linotype" !important;
+
 	text-shadow: 0px 0px 15px #222222, 0px 0px 3px #000000  ;
 
 	position: absolute;
