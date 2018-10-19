@@ -88,7 +88,7 @@ body.mobile{
 
 	width: 100%;
 
-	font-family: "league spartan", "Work Sans Semibold";
+	font-family: "league spartan", "Work Sans Semibold","Palantino Linotype";
 
 	/*"Montserrat";*/	
 
@@ -141,6 +141,7 @@ filter: saturate(80%);
 
 .mobile .scroll h1{
 	top: 2vh;
+	left: 2vh;
 }
 
 
