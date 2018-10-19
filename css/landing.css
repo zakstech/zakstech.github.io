@@ -50,7 +50,7 @@ body.mobile{
 	padding-top: 16vh;
 	
 
-	height:52vh;
+	height:57vh;
 }
 
 
@@ -119,8 +119,8 @@ filter: saturate(80%);
 
     .mobile .scroll{
     	height: 62vh;
-    	margin-top: -22vh;
-    	padding-top: 0px;
+    	margin-top: -20vh;
+    	padding-top: 5vh;
     }
 
 .scroll h1{
@@ -139,6 +139,9 @@ filter: saturate(80%);
 
 }
 
+.mobile .scroll h1{
+	bottom: 5vh;
+}
 
 
 	.scroll :not{}
