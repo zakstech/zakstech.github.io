@@ -118,7 +118,7 @@ filter: saturate(80%);
     transition: 1s ease-out, 0s height;}
 
     .mobile .scroll{
-    	height: 62vh;
+    	height: 60vh;
     	margin-top: -20vh;
     	padding-top: 5vh;
     }
@@ -288,7 +288,7 @@ background-size: cover;
 
 .mobile #scrollBarWindow{
 	height: 20vh;
-	margin-top: 0px;
+	margin-top: -2vh;
 }
 
 .scrollBar{
