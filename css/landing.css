@@ -50,7 +50,7 @@ body.mobile{
 	padding-top: 16vh;
 	
 
-	height:46vh;
+	height:52vh;
 }
 
 
@@ -88,7 +88,7 @@ body.mobile{
 
 	width: 100%;
 
-	font-family: "league spartan";
+	font-family: "league spartan", "Work Sans Semibold";
 
 	/*"Montserrat";*/	
 
@@ -118,7 +118,7 @@ filter: saturate(80%);
     transition: 1s ease-out, 0s height;}
 
     .mobile .scroll{
-    	height: 71vh;
+    	height: 62vh;
     	margin-top: -22vh;
     	padding-top: 0px;
     }
@@ -256,7 +256,7 @@ background-size: cover;
 
 
 
-    font-family: "Libre Baskerville";
+    font-family: "Libre Baskerville", "Old Standard";
 	width: 100%;
 
 	height:101px;
