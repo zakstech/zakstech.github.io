@@ -523,14 +523,16 @@ color: rgb(40,40,40);
 
 #second h2{
 
-	font-family: "league spartan"
+	font-family: "league spartan";
 
-	font-size: 45px;
+	font-size: 55px;
 
-	margin-top:-10px;
-	margin-bottom: 35px;
+	margin-top:-40px;
+	margin-bottom: 15px;
 
-	text-align: center;
+	text-align: left;
+
+	margin-left: opx;
 
 	color:rgb(86, 135, 212);
 
@@ -569,6 +571,32 @@ color: rgb(40,40,40);
 	font-family: "Montserrat";
 }
 
+
+.info-left a{
+	margin-left: 23%;
+	
+
+}
+
+
+#secondLeft.info-left{
+
+	text-align: left;
+}
+
+
+
+.info-left .text p{
+	text-indent:-0px !important; 
+	text-align: left !important;
+}
+
+.no-indent{
+	text-indent: 0 !important;
+}
+
+
+
 #secondLeft::after{
 
     content: ' ';
@@ -579,11 +607,11 @@ color: rgb(40,40,40);
 
 
 
-   top:200px;
+   top:145px;
 
    margin-top: -50px;
 
-   margin-left: 25%;
+   margin-left: 0%;
 
     width: 100%;
 
@@ -597,7 +625,7 @@ color: rgb(40,40,40);
 
     background-image: url('zlogobw.png');
 
-    background-size: 200px;
+    background-size: 300px;
 
     background-repeat: no-repeat;
 
