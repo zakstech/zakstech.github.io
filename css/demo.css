@@ -69,10 +69,20 @@ min-height: 80px;
 height: 1020px;
 }
 .mobile #main-body{
-  height: 160vh;
+  height: 150vh;
   overflow: visible;
 
 }
+.mobile #main-body h3{
+  font-size: 6rem;
+}
+.mobile #main-body p{
+  font-size: 2vh;
+  line-height: 2vh;
+  padding-bottom: 2vh;
+}
+
+
 #main-tab{
 
       margin-top: 150px;
@@ -344,6 +354,11 @@ grid-auto-rows: minmax(22vh, auto);
    font-size: 20px;
 
 
+}
+
+.mobile #main-body .photobanner p{
+  font-size: 2.5vh;
+  line-height: 2.5vh;
 }
 
 .six .photobanner{

@@ -1,12 +1,14 @@
 
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+  
+  
   var scrollBar = {"#scroll1Bar":100, "#scroll2Bar":0, "#scroll3Bar": -100, "#scroll4Bar":-200}
  var reffernce = {"#scroll1Bar":100, "#scroll2Bar":0, "#scroll3Bar": -100, "#scroll4Bar":-200}  
  var move2=100;// Take the user to a different screen here.
  var barReset=-200;
 
- $(".scrollBar").css("width","100%")
+
  
  
 
