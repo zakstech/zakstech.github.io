@@ -1,0 +1,445 @@
+@font-face {
+  font-family: eurofont35;
+  src: url(eurof35.ttf);
+}
+
+body{
+	background-color: gray;
+	margin:0px;
+
+}
+#group1{
+	height: 100vh;
+}
+#head{
+	position: relative;;
+	width: 100%;
+	min-width: 980px;
+	height: 240px;
+	background-color: white;
+	
+	margin-bottom: 480px;
+}
+#head .container{
+	    position: static;
+    display: grid;
+    height: 240px;
+    width: 100%;
+    min-height: auto;
+    margin-bottom: -1px;
+     /*grid-template-rows: min-content min-content min-content 1fr;
+     grid-template-columns:  min-content min-content min-content 1fr;
+   grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;*/
+    grid-auto-rows: 1fr;
+    grid-auto-columns:  1fr;
+     font-family: eurofont35,"Courier New", Courier,Tahoma, Geneva, sans-serif;
+   
+   
+}
+#topHead{
+		background-color: green;
+}
+.navbar-left{
+	   /*  position: relative;
+   margin: 25px 0px 68px calc((100% - 980px) * 0.5);
+    left: 50px;*/
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+
+    
+}
+ .navbar-right{
+	   /* position: relative;
+    margin: 25px 0px 64px calc((100% - 980px) * 0.5);
+    left: 810px;*/
+    grid-area: 1 / 4 / 2 / 5;
+    text-align: right;
+    padding-right: 30px;
+
+    
+   
+}
+#title{
+	    /*position: relative;
+    margin: 0px 0px 35px calc((100% - 980px) * 0.5);
+    left: 110px;*/
+    grid-area: 2 / 2 / 5 / 4;
+    font-size:  72px;
+   
+    color: #00ff00;
+    text-align: center;
+    margin-top: 30px;
+
+
+    
+}
+#head .left-side{
+    grid-area: 2 / 1 / 5 / 2;
+}
+#head .right-side{
+    grid-area: 2 / 4 / 5 / 5;
+   text-align: right;
+}
+
+
+#navbar-bottom{
+	border-top: 1px solid lightgray;
+	grid-area: 5/ 1/ 6 / 5;
+	padding-bottom: 5px;
+	font-size: 20px;
+
+}
+#navbar-bottom ul{
+	display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 75%;
+  
+    margin: 0;
+    padding: 0;
+    padding-left: 12.5%;
+    padding-right:12.5%;
+    padding-top: 20px;
+}
+
+#navbar-bottom li{
+	display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+   
+}
+
+.nav-horizontal{
+	list-style: none;
+	display: block;
+}
+.nav-horizontal li{
+	
+	display: inline-block;
+}
+
+
+
+#sec {
+	position: relative;
+	z-index: 3;
+
+	background-image: url("images/meal1.jpg");
+min-height:750px;
+width: 100%;
+background-color: green;
+background-size: cover;
+
+margin-top: 100px;
+left:-4px;
+}
+#sec2 {
+	margin-top: 375px;
+	z-index: 3;
+	margin-left: -8px;
+
+	background-image: url("images/meal.jpg");
+min-height:700px;
+width: 100%;
+background-color: green;
+background-size: cover;
+
+
+left:-4px;
+}
+.spacing{
+	height: 360px;
+}
+#third{
+	position: relative;
+height:825px;
+width: 100%;
+background-color: white;
+
+
+
+}
+#third .container{
+	position: static;
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-auto-rows: 1fr;
+    grid-auto-columns:  1fr;
+}
+#third .tab{
+	grid-area: 1/1/3/2;
+	background-image: url("images/tab.jpg");
+	background-size: cover;
+	background-color: blue;
+
+}
+#third .intro{
+     grid-area:1/1/3/5;
+     background-color: white;
+     text-align: center;
+     
+
+}
+
+#third .left-side{
+	grid-area: 1/1/4/2;
+	z-index: 5;
+	
+}
+
+#third .right-side{
+
+grid-area: 1/4/4/5;
+	z-index: 5;
+
+}
+#third .intro h1{
+	width: 60%;
+	padding-left: 20%;
+	padding-top: 3%;
+	text-transform: uppercase;
+}
+
+#third .intro h2{
+	color: #00ff00;
+	width: 60%;
+	padding-left: 20%;
+}
+#third p{
+	width: 80%;
+	padding-left: 10%;
+}
+#third .dishes{
+	grid-area: 3/1/6/5;
+	
+
+}
+#third h2{
+	font-family: eurofont35,"Courier New", Courier,Tahoma, Geneva, sans-serif;
+    color: #00ff00;
+
+}
+
+ 
+.dishes .container{
+	position: static;
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-auto-rows: 1fr;
+    grid-auto-columns:  1fr;
+    text-align: center;
+} 
+
+.tab .pic{
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url("images/tab.jpg");
+}
+
+.dishes .main-title{
+
+grid-area: 1/2/2/4;
+text-align: center;
+
+}
+
+.dish{
+	width: 80%;
+	text-align: center;
+	padding-left:10%;
+
+	text-overflow: ellipsis;
+
+  overflow: hidden;
+
+	
+}
+
+.dishcontainer{
+	max-height: 100%;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-auto-rows: 1fr;
+}
+
+#dish1{
+
+	grid-area:2/1/7/2;
+	
+}
+#dish2{
+	grid-area:2/2/7/3;
+	
+}
+#dish3{
+	grid-area:2/3/7/4;
+	
+}
+#dish4{
+	grid-area:2/4/7/5;
+	
+
+}
+
+.dishes .title{
+	grid-area: 1/1/3/1;
+	
+}
+
+
+.dishes .pic{
+	
+	grid-area: 4/1/8/1;
+	
+}
+
+
+.dishes .pic img{
+	object-fit: cover;
+	display: block;
+	height: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+
+.dishes .body{
+	grid-area: 9/1/17/1;
+}
+
+.price{
+	grid-area: 18/1/19/1;
+	vertical-align: bottom;
+}
+
+
+/* -----------------------------------FOURTH--------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------*/
+#fourth{
+	height: 600px;
+	background-color: white;
+}
+#fourth .container{
+	  position: static;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-auto-columns:  1fr;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+#fourth .top-left{
+	grid-area: 1/1/3/2;
+	text-align: left;
+	z-index: 5;
+}
+#fourth .top-right{
+	grid-area: 1/8/3/9;
+    text-align:right;
+}
+#fourth .bottom-right{
+	grid-area: 14/8/16/9;
+	text-align: right
+}
+#fourth .bottom-left{
+	grid-area: 14/1/16/2;
+	text-align: left;
+
+}
+#fourth p{
+	 font-family: eurofont35;
+	 font-size: 18px;
+}
+#fourth h2{
+	color: #00ff00;
+
+}
+#fourth h4{
+	 font-family: eurofont35;
+	 font-size: 18px;
+
+}
+.top{}
+.bottom{
+	
+}
+.top-text{
+	grid-area: 1/1/7/9;
+
+  background-image:linear-gradient(to right,rgba(255,255,255,1),rgba(255,255,255,1)66%,rgba(255,255,255,0)),url(images/ingrediants.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: right;
+}
+.top-text .text{
+	margin-right: 39%;
+	margin-left: 6%;
+     
+}
+
+.bottom-text{
+	grid-area: 7/1/16/9;
+
+	 background-image:linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,1)),url(images/dinning.jpg);
+	 background-size: contain;
+	 background-repeat: no-repeat;
+  
+}
+.bottom-text .text{
+	margin-left: 39%;
+	margin-right: 6%;
+}
+/* -----------------------------------FOOTER--------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------*/
+#footer{
+	height: 200px;
+	background-color: #00ff00;;
+	color: white;
+	text-align: center;
+}
+#footer .container{
+	display: grid;
+	grid-auto-rows: 1fr;
+	grid-auto-columns: 1fr;
+}
+
+#footer .left{
+	grid-area: 1/1/4/1;
+}
+#footer .right{
+	grid-area: 1/3/4/3;
+}
+#bottom{
+	grid-area: 4/1/5/4;
+	text-align: bottom;
+}
+
+.price{
+font-weight:  bold;}
+img{
+	object-fit: cover;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+a:active{
+	color: #00ff00;
+}
+
+.active{
+	color: #00ff00;
+}
