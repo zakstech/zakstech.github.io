@@ -20,7 +20,7 @@ background-size: 1844px 1037px;
 
  
 }
-body.mobile{
+body.mobile{background-image:none;
  
 }
 p{
@@ -67,6 +67,7 @@ min-height: 80px;
  overflow-x:hidden;
  margin-bottom: 10px;
 height: 1020px;
+
 }
 .mobile #main-body{
   height: auto;
@@ -74,7 +75,9 @@ height: 1020px;
 
 }
 .mobile #main-body h3{
+  
   font-size: 4rem;
+
 }
 .mobile #main-body p{
   font-size: 2vh;
@@ -84,6 +87,7 @@ height: 1020px;
 
 
 #main-tab{
+
 
       margin-top: 150px;
       background: linear-gradient(lightgray,black) ;
@@ -113,7 +117,7 @@ height: 1020px;
   width:100%;
   min-width: 100vw;
   height: 100%;
-  
+  margin-top: 60px;
   margin-right: 0px;
   margin-left: 0px;
 
@@ -157,14 +161,14 @@ height: 1020px;
 
 .mobile .nav-tabs > li {
   width: 16.65%;
-  height: 72px;
-  margin-bottom: -13px;
+  height: 48px;
+  margin-bottom: -1px;
  
 }    
 
 .mobile .nav-tabs > li >a {
 
-  height: 60px;
+  height: 48px;
   font-size: 14px;
 
 }
@@ -326,7 +330,7 @@ grid-auto-rows: minmax(22vh, auto);
 }
 .mobile #footer{
   height: 50vh;
-  margin-top: -5px;
+  margin-top: -10px;
 }
 
 /*----------------------------------------------*/
