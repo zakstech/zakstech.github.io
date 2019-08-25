@@ -32,6 +32,8 @@ padding: 0px;}
   background-color:white;
 
 }
+
+
 	
 }
 #top{
@@ -318,6 +320,12 @@ li{
 
 .cta-section{
 	
+}
+
+.mobile #rightNavbar{
+	background-color: rgba(248 248 248 .95);
+	width: 100%;
+	height: 80%;
 }
 
 /*         Image and flipping section    */

@@ -547,6 +547,11 @@ color: rgb(40,40,40);
 
 }
 
+.mobile #second{
+
+	margin-top: -170px;
+}
+
 #second h2{
 
 <<<<<<< HEAD
@@ -765,6 +770,16 @@ padding-top: 15px;
 
 
 	min-height: 220px;
+
+
+
+}
+
+.mobile #wrapperFourth{
+
+
+
+	padding-bottom: 25px;
 
 
 

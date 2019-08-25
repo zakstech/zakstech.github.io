@@ -232,7 +232,7 @@
     .mobile .navbar-collapse.collapse.in { 
 
         display: block!important;
-        opacity: .85;
+        opacity: .95;
         visibility: visible;
 
     }
@@ -987,7 +987,22 @@ position: relative;
   margin-top: 3px;
   margin-bottom: 3px;
 }
+.mobile #rightNavbar[aria-expanded="true"]{
+  border-style: none;
+  border-width: 0px;
+ width:100%;
+ min-height: 80%;
+  background-color: rgba(248,248,248);
+  
+  overflow-x: hidden;
+  
+  margin-top: -10px;
+  margin-right: -1px;
+  margin-bottom: 0%;
 
+  display: block;
+
+}
 
  .in li{
   text-align: center;
