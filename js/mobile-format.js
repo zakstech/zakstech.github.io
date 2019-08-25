@@ -2,7 +2,7 @@ $(document).ready(function() {
      
     // Put your offset checking in a function
    
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+    if (true){//(/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
   
     $("#head").removeClass("tall");
             $("#head").addClass("collapsed");
