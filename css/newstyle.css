@@ -978,7 +978,7 @@ position: relative;
   margin-top: 10px;
   background-color: rgba(248,248,248,1);
   width: 400px;
-  min-height: 350px !important;
+  
   font-size: 38px;
   line-height: 40px;
 }
@@ -991,7 +991,9 @@ position: relative;
   border-style: none;
   border-width: 0px;
  width:100%;
- min-height: 80%;
+ 
+ height: 80%;
+ min-height:500px; 
   background-color: rgba(248,248,248);
   
   overflow-x: hidden;
