@@ -12,18 +12,31 @@
 	height: 20vh;
 	min-width: 980px;
 }*/
+@font-face{
+	font-family: GlacialIndifference;
+	src: url('fonts/GlacialIndifference-Regular.otf')
+
+}
+@font-face{
+	font-family: WorkSans;
+	src: url('fonts/fonts/WorkSans-Regular.otf')
+}
+	@font-face{
+	font-family: Montserrat;
+	src: url('fonts/Montserrat-Regular.otf')
+}
 
 body.mobile{
 	overflow:hidden;
 	width: 100vw; 
-<<<<<<< HEAD
+
 	max-width: 100%;
 	position: relative;
-=======
-	max-width: 100vw;
+
+    max-width: 100vw;
 	position: relative;
 	overflow-y: scroll !important;
->>>>>>> b5a3000fec86fb594831f2c2a617a69ab60ce5d1
+
 
 }
 
@@ -93,11 +106,11 @@ body.mobile{
 
 	width: 100%;
 
-<<<<<<< HEAD
+
 	font-family: "league spartan";
-=======
+
 	font-family: "league spartan", "WorkSansSemibold",'WorkSansRegular',"Palantino Linotype";
->>>>>>> b5a3000fec86fb594831f2c2a617a69ab60ce5d1
+
 
 	/*"Montserrat";*/	
 
@@ -128,7 +141,7 @@ filter: saturate(80%);
 
     .mobile .scroll{
     	height: 60vh;
-    	margin-top: -20vh;
+    	margin-top: -23vh;
     	padding-top: 5vh;
     }
 
