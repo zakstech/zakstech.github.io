@@ -342,10 +342,10 @@ grid-auto-rows: minmax(22vh, auto);
  padding: 5px;
  text-align: center;
  overflow: hidden;
- 
- 
+ }
+.mobile .photobanner{
+  padding: 1px;
 }
-
 .photobanner img {
     position: absolute;
   display: block;
