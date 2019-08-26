@@ -246,6 +246,9 @@ section{margin:10px,0px,10px,0px;
  overflow-x: hidden;
  width: 100%;
 }
+.mobile #main{
+  margin-top: -6px;
+}
 #sec{
   margin-top: 100px;
   background-color: black;
