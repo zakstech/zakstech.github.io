@@ -40,431 +40,35 @@ body.mobile{
 
 }
 
-#scrollWindow{
-
-	display: inline-block;
-
-	
-
-	overflow: hidden !important;
-
-	height: 95vh;
-
-	margin-top: -144px;
-
-	padding-top: 144px;
-
-	width: 100%;
-	max-width: 100% !important;
-
-	
-
-	
-
-}
-.mobile #scrollWindow{
-	overflow: hidden !important;
-	margin-top: 16vh;
-	padding-top: 16vh;
-	
-
-	height:57vh;
-}
-
-
-#scrollWindow:hover > .scrollArrow{
-
- 
-
- 	opacity: .8;
-
- 
-
-}
-
-
-
-.scrollArrow:hover{
-
-	cursor: pointer;
-
-	-webkit-transform: scale(1.1);
-
-}
-
-
-
-.scroll{
-
-	height: 100%;
-
-	height: 100vh;
-
-	margin-top: -144px;
-
-	padding-top: 144px;
-
-	width: 100%;
-
-
-	font-family: "league spartan";
-
-	font-family: "league spartan", "WorkSansSemibold",'WorkSansRegular',"Palantino Linotype";
-
-
-	/*"Montserrat";*/	
-
-	z-index: 2;
-
-	position: absolute;
-
-	display: inline-block;
-
-	filter: blur(2px);
-filter: brightness(60%);
-filter: contrast(40%);
-filter: drop-shadow(4px 4px 10px blue);
-filter: grayscale(30%);
-filter: hue-rotate(120deg);
-filter: invert(70%);
-filter: opacity(20%);
-filter: sepia(90%);
-filter: saturate(80%);
-
-  -webkit-transition: 1s ease-out, 0s height;
-
-    -moz-transition: 1s ease-out, 0s height;
-
-    -o-transition: 1s ease-out, 0s height;
-
-    transition: 1s ease-out, 0s height;}
-
-    .mobile .scroll{
-    	height: 60vh;
-    	margin-top: -23vh;
-    	padding-top: 5vh;
-    }
-
-.scroll h1{
-
-	color:white;
-
-	font-size: 60px;
-
-		font-family: "league spartan",'GlacialIndifferenceRegular', "WorkSansSemibold",'WorkSansRegular',"Palantino Linotype" !important;
-
-	text-shadow: 0px 0px 15px #222222, 0px 0px 3px #000000  ;
-
-	position: absolute;
-
-	bottom:122px;
-
-	left:30px;
-
-}
-
-.mobile .scroll h1{
-	top: 1.5vh;
-	left: 1.5vh;
-	font-family: "league spartan", "WorkSansSemibold",'WorkSansRegular',"Palantino Linotype","Times New Roman" ;
-	font-weight: 100;
-	font-size: 9vh;
-}
-
-
-	.scroll :not{}
-
-	
-
-	.scrollArrow{
-
-		position: relative;
-
-		
-		font-size: 50px;
-
-		font-style: bold;
-
-		background-color: rgb(256,256,256,.2);
-
-		color:white;
-
-		
-
-		top: 49%;
-
-		-webkit-transition: all .7s; 
-
--moz-transition: all .7s;
-
-		z-index: 50;
-
-		opacity: .0;
-
-		
-
-	width: 40px;
-
-	height: 60px;
-
-}
-
-  .scrollArrow.left{
-
-		
-
-		left: 0;
-
-		} 
-
-		.scrollArrow.right{
-
-		
-
-		right: 0;
-
-		}     
-
-
-
-#scroll1{
-
-	background:linear-gradient(90deg,white,black);
-
-	background-image: url('../compressed/techfill.png');
-
-	background-size: cover;
-
-
-
-	left:-100;
-
-}
-
-#scroll2{
-
-	left: 0%;
-
-	background-color: red;
-
-	background-image: url('../compressed/2.jpg');
-
-background-size: cover;
-
-
-
-}
-
-#scroll3{left: 100%;
-
-background-color:blue;
-
-background-image: url('../compressed/filler.jpg');
-
-background-size: cover;
-
-}
-
-
-
-#scroll4{
-
-	
-
-	background-image: url('../compressed/tutor.jpg');
-
-background-size: cover;
-
-	left:200%;
-
-}
-
-
-
-
-
-#scrollBarWindow{
-
-
-
-<<<<<<< HEAD
-    font-family: "Libre Baskerville";
-=======
-    font-family: "Libre Baskerville", "Old Standard";
->>>>>>> b5a3000fec86fb594831f2c2a617a69ab60ce5d1
-	width: 100%;
-
-	height:101px;
-
-	display: inline-block;
-
-	position: relative;
-
-	overflow: hidden;
-
-	margin: auto;
-
-	margin-top: -68px;
-	
-	background-color: rgb(40,40,40);
-
-	
-
-	
-
-	
-
-}
-
-.mobile #scrollBarWindow{
-	height: 20vh;
-	margin-top: -2vh;
-}
-
-.scrollBar{
-
-	height: 115px;
-
-	width:50%;
-
-	
-
-	z-index: 2;
-
-	position: absolute;
-
-	display: inline-block;
-
-	background-color: rgb(40,40,40);
-
-	border: solid #000;
-
-	border-width: 1px;
-
-	border-color: black;
-
-	border-right-width: 1px;
-
-	border-left-width:  0px;
-
-	    border-right-color: white;
-
-	   
-
-    padding: 10px;
-
-	color: white;
-
-	-webkit-transition: all 1.5s cubic-bezier(0, 0, 0, 1); 
-
--moz-transition: all 1.5s cubic-bezier(0, 0, 0, 1)
-
-    font-size: 16S;
-
-    font-family: "MontserratRegular"; 
-
-    
-
-
-
-}
-
-.mobile .scrollBar{
-	height: 20vh;
-	width: 100%;
-}
-
-.scrollBar h3{
-
-	font-size: 22px;
-
-	text-align: left;
-
-	margin-top: 5px;
-
-	margin-left: 5px;
-
-}
-
-.scrollBar p{
-
-	margin-left: 5px;
-}
-
-
-#scroll1Bar{
-
-	
-
-	left:75%;
-
-}
-
-#scroll2Bar{
-
-	left:25%;
-
-	
-
-}
-
-.mobile #scroll2Bar{
-
-	left:0%;
-
-	
-
-}
-
-#scroll3Bar{left: -25%;
-
-}
-
-.mobile #scroll3Bar{left: -100%;
-
-}
-
-#scroll4Bar{
-
-	
-
-	left:-75%;
-
-}
-
-.mobile #scroll4Bar{
-	left: -200%;
-}
-
-.slide-point-out {
-
-    display: block;
-
-    transition: 1s;
-
-  
-
-    
-
-    position: relative;
-
-    width: 0;
-
-    height: 0;
-
-    border-left: 20px solid transparent;
-
-    border-right: 20px solid transparent;
-
-    border-bottom: 20px solid black;
-
-    top: -20px;
-
-   
-
-    z-index: 900;
-
-}
+#intro{
+min-height:1000px;
+text-align: center;}
+
+.mobile #intro {
+	min-height:700px;
+
+		height: 700px;
+	}
+
+	#intro h3{
+		display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  margin-top:50%;
+  color:white;
+  font-size: 72px;
+  text-shadow: 1px 1px gray;
+
+	}
+
+	.mobile #intro h3{
+		margin-top:25%;
+		font-size: 48px;
+	}
+	#intro span{
+
+
+	}
 
  .slide-point-in{
 
@@ -506,7 +110,7 @@ padding-top: 10px;
 
 min-width: 100%;
 
-	background-image: url('trial.jpg');
+	background:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../Header.jpg');
 
 background-size: cover;
 
@@ -518,7 +122,7 @@ padding:0px;
 
 margin:0 auto;
 
-margin-top: 181px;
+margin-top: 81px;
 
 
 
@@ -526,12 +130,15 @@ margin-top: 181px;
 
 .mobile #top{
 	margin-top: 0px;
-	
+	background:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../Header Mobile.jpg');
+
+background-size: cover;
 }
 
 #second{
 
 	margin-top: -5px;
+	
 
 	padding: 20px;
 
@@ -546,30 +153,43 @@ width: 100%;
 color: rgb(40,40,40);
 
 }
+#second .section{
+	margin-left: 10%;
+	margin-right: 5%;
+}
 
 .mobile #second{
 
 	margin-top: -170px;
 }
 
+.mobile img{
+	height: auto !important;
+	width: 100%;
+}
+
+.mobile #second .button{
+	width: 100%;
+}
+
 #second h2{
 
-<<<<<<< HEAD
+
 	font-family: "league spartan"
 
 	font-size: 45px;
-=======
-	font-family: "league spartan";
->>>>>>> b5a3000fec86fb594831f2c2a617a69ab60ce5d1
 
-	font-size: 55px;
+	font-family: "league spartan";
+
+
+	font-size: 75px;
 
 	margin-top:-40px;
 	margin-bottom: 15px;
 
-	text-align: left;
+	text-align: center;
 
-	margin-left: opx;
+	margin-left: 0px;
 
 	color:rgb(86, 135, 212);
 
@@ -595,6 +215,28 @@ color: rgb(40,40,40);
 
 
 }
+
+#second .button {
+	 -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+        display: inline-block;
+        background-color: white;
+        border-radius: 8px;
+        border: 4px double rgb(86, 135, 212);
+        color:rgb(86, 135, 212);
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      #second button:hover {
+      	background-color: rgb(86, 135, 212);
+      	color:white;
+      }
 
 #second .imageFrame{
 
@@ -680,6 +322,10 @@ color: rgb(40,40,40);
 
 	margin-top: 0vh;
 	margin-left: 10vw;
+}
+
+#second .row div{
+
 }
 
 #portrait{

@@ -9,65 +9,7 @@ var md = new MobileDetect(window.navigator.userAgent);
 $(document).ready( function(){
 	//$(".box").css({"visibility":"hidden"})
 
-	var width="30%";
-	var width2="33%"
-	var height="40%"
-	var height2="45%"
-
-	//--Code to rearange boxes if on mobile device ---- //
-
-	if (md.mobile()) {
-
-		
-
-
-		var width="40%"
-	var width2="45%"
-	var height="30%"
-	var height2="33%"
-	$(".box").css({"width":width,"height":height})
-
-	$(".top" ).css({"left":"1%","margin-top":"0px"})
-	$(".bottom" ).css({"left":"51%","margin-top":"0px"})
-	$(".right" ).css({"top":"34%","margin-top":"160px"})
-		$(".left" ).css({"top":"0%","margin-top":"160px"})
-			$(".middle" ).css({"top":"67%","margin-top":"160px"})
-			
-       
-    }
-
-//$(".box").css({"visibility":"visible"})
-	var active = false;
-
-$(".box").hover(
 	
-
-	function(){
-	var box = this
-	if($(box).hasClass("hover")){
-		$("h2",box ).css({"font-size":"24px"})
-	$("p",box ).css({"font-size":"14px"})
-		$(box).css({"z-index":"2","height": height2,"width":width2,"box-shadow": "20px 20px 15px #777777"})
-		
-
-	}
-},
-
-	function(){
-		var box = this
-		
-		if($(box).hasClass("hover")){
-		$(box).css({"height": height,"width":width,"box-shadow": "10px 10px 5px #888888"})
-		$("h2",box ).css({"font-size":"20px"})
-	$("p",box ).css({"font-size":"12px"})
-	setTimeout(
-			function(){
-
-				$(box).css({"z-index":"1"});
-                       
-			},400)
-				
-		}
 	}
 
 

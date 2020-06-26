@@ -13,7 +13,8 @@ min-height: 500px;
   grid-auto-rows: minmax(150px, auto);*/
 
 }
-.container-fluid{
+#intro{background-image: url('../tutor.jpg')
+min-height:100px;
 	}
 
 .boxHolder{
@@ -22,47 +23,7 @@ min-height: 500px;
 	
 }
 
-.box{
-	
-	z-index: 1;
-    
-    position: absolute  !important;
 
-	background-color: white;
-	/*
-	height: 90% ;
-	
-	width: 90%;
-	min-width: 50px;
-	margin:10%;*/
-	height: 40%;
-	width: 30%;
-	margin:0%;
-	left:34%;
-
-	
-    border-width:2px;  
-    border-style:outset;
-    box-shadow: 10px 10px 5px #888888;
-    border-color: gray;
-
--webkit-transition: all .4s linear .2s;
-transition: all .4s linear .2s;
-overflow: hidden; 
-position: relative;
-}
-
-/*
-.box[href |= "#"]:hover{
-	margin:5%;
-	height: 100%;
-	width:100%;
-
-	box-shadow: 20px 20px 15px #777777;
-	
-
-	
-}*/
 
 .close-border{
    

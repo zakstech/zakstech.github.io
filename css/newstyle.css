@@ -1429,6 +1429,9 @@ margin-top: 15px;
 }*/
 
 /*------------- EFFECTS ------------------------------------------- */
+.spacer{
+  height: 150px;
+}
 
 #head.collapsed{
 
