@@ -8,7 +8,7 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
   
 } else{
    
- $("body").addClass("mobile");
+ 
 
 
 
