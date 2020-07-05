@@ -1324,70 +1324,82 @@ li{
 /*-----------FOOTER-----------------------------------------*/
 
 #footer{
-  background-color: black;
-  
-  overflow: hidden;
-}
+  height: auto;
 
-.mobile #footer p{
-  font-size: 25px;
-}
+  min-height: 240px;
 
+  background-color: rgb(90,90,90);
 
-
-#footerHead{
-  padding-left: 8%;
- overflow: hidden;
-
-}
-
-
-
-#footerHead img{
-  margin:5px;
-  float: left
-}
-
-#footerHead h2{
-
-float: left;
-margin-left:15px;
-margin-top: 15px;
-}
-
-#footer .left h3{
-  color: #fff;S
-}
-.mobile #footerHead {
-  display: none;
-}  
-
-.mobile #footer .left{
-  max-width: 100%;
-  width: 100%;
-  display: inline;
-  clear: both;
   text-align: center;
-}
-#footer.mobile .left div{
-  padding: 0px;
+
+  padding: 0;
+padding-top: 15px;
+
+  color: white;
+
+  font-family: "Lato";
 }
 
 
-#footer .right h3{
+ #footer p{
+  display: inline-block;
+
+  width: 90%;
+
+  height: 6px;
+
+  font-family: "Lato";
+
+  font-size: 12px;
+}
+
+#footer h2{
+
+
+
+  margin-bottom:0;
+
+  margin-top: 0;
+
+}
+
+#wrapperFooter{
+
+
+
+  min-height: 220px;
+
+
+
+}
+
+.mobile #wrapperFooter{
+
+
+
+  padding-bottom: 25px;
+
+
+
+}
+
+#bottom{
+
+  width: 100%;
+
+  height: 20px;
   
-   color: #337ab7;
-   
-}
-#footer .right p{
+  font-family: "Montserrat";
+
+  background-color:black;
   
-   line-height: 25px;
-   
+
+  bottom: 0px;
+
 }
 
-.mobile #footer .right{
-  display: none;
-}
+
+#
 /*----------Specialized Elements --------------------------*/
 
 
