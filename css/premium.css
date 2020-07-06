@@ -91,7 +91,7 @@ h1{
 }
 
 .mobile h1{
-  font-size: 20px;
+  font-size: 30px;
 }
 h4 {
   margin-top: 20%;
@@ -101,16 +101,16 @@ h4 {
   vertical-align: center;
   font-family: kepler-std,serif,lulo-clean-w01-one-bold,sans-serif;
   
-  font-size: 60px;
+  font-size: 100px;
   font-weight: 400;
   color: white;
-  line-height: 60px;
+  line-height: 100px;
   
 }
 .mobile h4{
   margin-top: 4%;
-  font-size: 100px;
-  line-height: 110px;
+  font-size: 60px;
+  line-height: 60px;
 }
 
 #second{
