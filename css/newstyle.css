@@ -1445,6 +1445,10 @@ padding-top: 15px;
   height: 150px;
 }
 
+.mobile .spacer{
+   height: 75px
+
+}
 #head.collapsed{
 
   max-height: 2px;
