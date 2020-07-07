@@ -94,7 +94,8 @@ h1{
   font-size: 30px;
 }
 h4 {
-  margin-top: 20%;
+  margin-top: 10%;
+  margin-bottom: 20%;
   text-align: center;
   margin-left: 5%;
   color: rgba(50,50,50);
@@ -171,6 +172,13 @@ margin-left: 0%;
   color:rgb(86, 135, 212);
 
 }
+
+.mobile #second h2{
+
+
+
+  font-size: 35px;}
+
 
 #second p{
 
